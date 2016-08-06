@@ -472,9 +472,9 @@
             </p>
             <div class="color-band-icon-wrapper">
               <div class="float-l phone-div vertical-align">
-                <div class="color-band-icon-div w-h-84" style="background:url('/base_1/img/main/location/icon1.png')"></div>
-                <p>H. 010-7347-0086</p><br>
-                <p>H. 010-8796-0086</p>
+                <div class="color-band-icon-div w-h-phone" style="background:url('/base_1/img/main/location/icon1.png')"></div>
+                <p>H. 010-7347-0086</p>
+                <p style="margin-top:10px;">H. 010-8796-0086</p>
               </div>
             </div>
           </div>
