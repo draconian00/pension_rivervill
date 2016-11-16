@@ -1,0 +1,25 @@
+.tab-wrapper {
+  height: 50px;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.tab-wrapper .tab-btn {
+  padding: 10px;
+  height: 100%;
+}
+.tab-wrapper .tab-btn.active {
+  color: #FFF;
+  background: #F96700; 
+}
+
+.res-content {
+  display: none;
+}
+.res-content.active {
+  display: block;
+}
+
+.reserve-info-wrapper {
+  padding: 15px;
+}

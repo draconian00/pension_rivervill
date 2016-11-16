@@ -1,6 +1,7 @@
 footer {
-  margin-top: 100px !important;
+  margin-top: 150px !important;
   position: relative;
+  padding: 0 !important;
 }
 
 .copyright {
@@ -14,4 +15,47 @@ footer {
 }
 .copyright > center > small {
   font-size: 0.8rem;
+}
+
+#footer_logo {
+  margin-top: 50px;
+  width: 250px;
+}
+
+#contact_text {
+  color: #679EEC;
+  position: absolute;
+  left: 44%;
+  top: -22px;
+  z-index: 100;
+  background: #060C17;
+  padding: 10px;
+}
+
+#bank_icon {
+  width: 15px;
+  margin-left: 10px;
+  position: absolute;
+  top: 1px;
+  left: 0px;
+}
+
+.footer-content-wrapper {
+  position: relative;
+  margin-top: 30px;
+  margin-bottom: 70px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;  
+}
+
+.footer-content-wrapper > p {
+  font-size: 16px;
+}
+.footer-content-wrapper > i {
+  position: relative;
+}
+.footer-content-wrapper > table {
+  margin-top: 20px;
 }

@@ -1,0 +1,197 @@
+.list-banner {
+  width: 100%;
+  height: 450px;
+}
+.banner-sub-title {
+  letter-spacing: 14px;
+}
+
+.header-sub-content {
+  margin-top: 20px;
+  color: #525252;
+  font-size: 20px;
+  letter-spacing: 5px;
+}
+
+.header-icon-wrapper {
+  width: 720px;
+}
+.header-icon {
+  width: 60px;
+  height: 60px;
+}
+.icon-border {
+  height: 20px;
+  border-right: 3px solid #F96700;
+}
+
+.icon-comment {
+    margin-top: 15px;
+}
+
+/*Rooms*/
+.room-wrapper {
+    width: 100%;
+    height: 650px;
+}
+.room-bg {
+    width: 1200px;
+    height: 650px;
+    margin: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/*ROOM INFO BOX*/
+.room-info-wrapper {
+    width: 100%;
+    /*height: 470px;*/
+    background: rgba(0,0,0,0.7);
+    margin-top: 75px;
+    padding: 30px;
+    color: #fff;
+}
+.room-info-header {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 30px;
+    color: #fff;
+}
+
+/*ROOM ICON*/
+.room-info-icon-wrapper {
+    /*border: 2px solid #CACACA;*/
+    border: 2px solid #FFF;
+    width: 220px;
+    height: 56px;
+    border-radius: 6px;
+    margin: 0;
+}
+.room-info-icon-leftbox {
+    height: 48px;
+    /*border-right: 1px solid #CACACA;*/
+    border-right: 1px solid #FFF;
+    padding: 0 5px 0 5px;
+    margin: 2px 0 2px 0;
+}
+.room-info-icon-rightbox {
+    height:48px;
+    padding:0 5px 0 5px;
+    margin:2px 0 2px 0;
+}
+.room-info-icon-content-wrapper {
+    width: 50%;
+    height: 100%;
+    float: left;
+    position: relative;
+    color: #fff;
+}
+.room-info-icon-1 {
+    width: 36px;
+    height: 36px;
+    /*background: url('/base_1/img/main/rooms/icon/room_icon_01_128.gif');*/
+    background-size: cover !important;
+    margin: auto;
+    margin-top: 6px;
+}
+.room-info-icon-2 {
+    width: 36px;
+    height: 36px;
+    /*background: url('/base_1/img/main/rooms/icon/room_icon_02_128.gif');*/
+    background-size: cover !important;
+    margin: auto;
+    margin-top: 6px;
+}
+.room-info-icon-comment {
+    text-align: center;
+    font-size: 14px;
+}
+.room-info-icon-comment > sup {
+    font-size: 10px;
+}
+/*END ROOM ICON*/
+
+/*ROOM INFO COMMENT*/
+.room-info-comment-wrapper {
+    margin: 0;
+    margin-top: 10px;
+}
+.room-info-comment-header {
+    /*color: #525252;*/
+    color: #fff;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+.room-info-comment {
+    /*color: #434343;*/
+    color: #fff;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 16px;
+}
+/*END ROOM INFO COMMENT*/
+
+/*ROOM btn*/
+.room-info-btn {
+    margin: 0;
+}
+.room-info-btn > a {
+    margin-top: 15px;
+    font-size: 15px;
+}
+/*END ROOM btn*/
+
+/*ROOM INFO Swiper*/
+.room-info-swiper {
+    height: 90px;
+}
+.room-info-swiper-slide {
+    height: 90px;
+    padding: 0 12px 0 12px;
+}
+.room-info-swiper-slide > div {
+    width: 100%;
+    height: 100%;
+}
+.room-info-swiper-arrow {
+    /*margin-top: 0 !important;*/
+}
+/*END ROOM INFO Swiper*/
+
+/*ALL ROOMS btn*/
+.all-rooms-btn-wrapper {
+    width: 100%;
+    height: 100px;
+    position: relative;
+}
+#all_room_icon {
+    width: 36px;
+    height: 36px;
+}
+#f_all_room_icon {
+    width: 36px;
+    height: 36px;
+}
+/*END ALL ROOMS btn*/
+
+/*A ROOM*/
+.village-room-accent {
+    color: #FF6600;
+}
+/*FAMILY ROOM*/
+.family-room-accent {
+    color: #1593D0;
+}
+/*END Rooms*/
+
+.arrows-3 .swiper-arrow-left {
+    left: -25px !important;
+    margin-top: 5px !important;
+    font-size: 30px !important;
+}
+.arrows-3 .swiper-arrow-right {
+    right: -25px !important;
+    margin-top: 5px !important;
+    font-size: 30px !important;
+}

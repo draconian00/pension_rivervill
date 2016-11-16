@@ -1,0 +1,9 @@
+@media (min-width: 1439px) {
+    header > .container {
+        width: 1300px;
+    }
+}
+
+header a.logo > img {
+  width: 250px;
+}

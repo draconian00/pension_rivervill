@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		{{$header}}
+
+		<script>
+		$('header').find('.active').removeClass('active');
+		$('header').find('.link_room_list').parent('li').addClass('active');
+		</script>
+
+		<link href="http://devpub.cafe24.com/assets/css/rooms/list.css" rel="stylesheet" type="text/css"/>
+	</head>
+	<body>
+		{{$menu_nav}}
+
+		<div class="inner-banner list-banner style-6 background-block" style="background-image: url('/base_1/img/room_list/banner.jpg'');">
+		<img class="center-image" src="/base_1/img/room_list/banner.jpg" alt="" style="display: none;">
+		<div class="vertical-align">
+		<div class="container">
+		<div class="row">
+		<div class="col-xs-12 col-md-8 col-md-offset-2">
+		<h1 class="color-white">ROOMS STYLE</h1>
+		<p class="color-white banner-sub-title">Donggang Rivervill Village</p>
+		</div>
+		</div>
+		</div>
+		</div>
+		</div>
+
+		<div class="main-wraper">
+		<div class="container">
+		<div class="row">
+		<div class="col-md-12">
+		<div class="second-title">
+		<h2 class="korean-font">빌리지 객실</h2>
+		<p class="header-sub-content">
+		All our rooms<br>
+		include the following
+		</p>
+		</div>
+		</div>
+		</div>
+		<center>
+		<div class="row header-icon-wrapper">
+		<div class="col-md-2 col-md-offset-1">
+		<div class="vertical-align icon-border"></div>
+		<img class="header-icon" src="/base_1/img/room_list/icon/icon1.gif">
+		<p class="icon-comment korean-font">침대</p>
+		</div>
+		<div class="col-md-2">
+		<div class="vertical-align icon-border"></div>
+		<img class="header-icon" src="/base_1/img/room_list/icon/icon2.gif">
+		<p class="icon-comment korean-font">TV</p>
+		</div>
+		<div class="col-md-2">
+		<div class="vertical-align icon-border"></div>
+		<img class="header-icon" src="/base_1/img/room_list/icon/icon3.gif">
+		<p class="icon-comment korean-font">냉장고</p>
+		</div>
+		<div class="col-md-2">
+		<div class="vertical-align icon-border"></div>
+		<img class="header-icon" src="/base_1/img/room_list/icon/icon4.gif">
+		<p class="icon-comment korean-font">에어컨</p>
+		</div>
+		<div class="col-md-2">
+		<img class="header-icon" src="/base_1/img/room_list/icon/icon5.gif">
+		<p class="icon-comment korean-font">헤어드라이어</p>
+		</div>
+		</div>
+		</center>
+		</div>
+		</div>
+
+		<div class="main-wraper">
+		<div class="row">
+		<div class="col-md-12">
+		<div class="second-title">
+		<h2>ROOMS</h2>
+		</div>
+		</div>
+		</div>
+
+		{{$room_a}}
+
+		<div class="row all-rooms-btn-wrapper">
+		<div class="vertical-align text-center">
+		<div class="buttons-wrap margin-0">
+		<a id="all_room_btn" href="#" class="c-button m-right b-60 bg-1 margin-0">
+		<img id="all_room_icon" src="/base_1/img/main/rooms/icon/room_icon_03_w_128.gif">
+		<span>ALL OUR ROOMS</span>
+		</a>
+		</div>
+		</div>
+		</div>
+
+		{{$room_b}}
+
+		<div class="row all-rooms-btn-wrapper">
+		<div class="vertical-align text-center">
+		<div class="buttons-wrap margin-0">
+		<a id="all_room_btn" href="#" class="c-button m-right b-60 bg-1 margin-0">
+		<img id="all_room_icon" src="/base_1/img/main/rooms/icon/room_icon_03_w_128.gif">
+		<span>ALL OUR ROOMS</span>
+		</a>
+		</div>
+		</div>
+		</div>
+
+		{{$room_c}}
+
+		</div>
+		</div>
+
+		{{$footer}}
+	</body>
+</html>

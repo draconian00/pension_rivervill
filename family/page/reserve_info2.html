@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+	<head>
+{{$header}}
+
+<script>
+	$(document).ready(function() {
+		$('body').attr('data-color','theme-6');
+	});
+</script>
+
+<script>
+$('header').find('.active').removeClass('active');
+$('header').find('.link_reserve_info').parent('li').addClass('active');
+</script>
+
+<link href="http://devpub.cafe24.com/assets/css/reservation/info.css" rel="stylesheet" type="text/css"/>
+<link href="http://devpub.cafe24.com/assets/css/rooms/list.css" rel="stylesheet" type="text/css"/>
+	</head>
+	<body>
+{{$menu_nav2}}
+
+<div class="inner-banner list-banner style-6 background-block" style="background-image: url('/base_1/img/reservation/info/banner.jpg');">
+<img class="center-image" src="/base_1/img/reservation/info/banner.jpg" alt="" style="display: none;">
+<div class="vertical-align">
+<div class="container">
+<div class="row">
+<div class="col-xs-12 col-md-8 col-md-offset-2">
+<h1 class="color-white">Reservation</h1>
+<p class="color-white banner-sub-title">Donggang Rivervill Village</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="main-wraper" id="activities_header">
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<div class="second-title">
+<h2>예약 안내</h2>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="container tab-container">
+<div class="simple-tab tab-3 color-1 tab-wrapper">
+<div class="tab-nav-wrapper">
+<div class="nav-tab clearfix">
+<div class="nav-tab-item active" id="tab_1">
+<span class="underline">객실 요금 안내</span>
+</div>
+<div class="nav-tab-item" id="tab_2">
+<span class="underline">유의사항 안내</span>
+</div>
+<div class="nav-tab-item" id="tab_3">
+<span class="underline">취소 / 환불 규정 안내</span>
+</div>                          
+</div>
+</div>
+<div class="tabs-content clearfix">
+
+<!-- tab 1-->
+<div class="tab-info active">
+<table class="table table-bordered text-center">
+<thead>
+<tr class="table-header">
+<th rowspan="2" colspan="1" class="table-header" style="padding-bottom:40px;">객실 명</th>
+<th rowspan="2" colspan="1" class="table-header" style="padding-bottom:30px;">인원<br>(기준 / 최대)</th>
+<th rowspan="2" colspan="1" class="table-header" style="padding-bottom:40px;">성수기</th>
+<th rowspan="1" colspan="2" class="table-header">비수기</th>
+</tr>
+<tr class="table-header">
+<th rowspan="1" colspan="1" class="table-header">주중(일-목)</th>
+<th rowspan="1" colspan="1" class="table-header">주말/공휴일(금-토)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>빌리지_A룸</td>
+<td>4명</td>
+<td>150,000</td>
+<td>120,000</td>
+<td>150,000</td>
+</tr>
+<tr class="even">
+<td>빌리지_B룸</td>
+<td>4명</td>
+<td>150,000</td>
+<td>120,000</td>
+<td>150,000</td>
+</tr>
+<tr class="odd">
+<td>빌리지_C룸</td>
+<td>4명</td>
+<td>150,000</td>
+<td>120,000</td>
+<td>150,000</td>
+</tr>
+<tr class="even">
+<td>패밀리_1층</td>
+<td>25명</td>
+<td>350,000</td>
+<td>300,000</td>
+<td>350,000</td>
+</tr>
+<tr class="odd">
+<td>패밀리_2층</td>
+<td>12명</td>
+<td>400,000</td>
+<td>350,000</td>
+<td>400,000</td>
+</tr>
+</tbody>
+</table>
+<p class="table-comment">금, 토, 공휴일 전날과 공휴일은 주말 요금이 적용됩니다.<br>
+성수기(7월 1일 ~ 8월 31일)에는 평일, 주말요금의 구분이 없습니다.</p>
+</div>
+<!-- END tab 1-->
+
+<!-- tab 2-->
+<div class="tab-info">
+<div class="row info2-row">
+	<div class="icon-div-1">
+		<div class="row">
+			<center><img src="/base_1/img/reservation/info/icon1.gif" width="90"></center>
+		</div>
+		<div class="row">
+			<center><img src="/base_1/img/reservation/info/icon2.gif" width="120"></center>
+		</div>
+	</div>
+	<div class="comment-div-1">
+		<p class="info2-comment-header">BOOK A ROOM</p>
+		<p class="info2-comment-sub">예약 후, 24시간 이내에 입금해주셔야 예약이 완료됩니다.<br>
+		그렇지 않으면, 자동 취소되오니 참고바랍니다.</p><br>
+		<p class="info2-comment">예약자명과 입금자명이 다를 경우 확인이 불가하여 예약이 자동 취소 될 수 있으니 반드시 예약자 이름으로<br>입금해주시기 바랍니다.</p>
+	</div>
+</div>
+<div class="row info2-row">
+	<div class="icon-div-1">
+		<div class="row" style="padding-left:27px">
+			<div style="height:70px; position:relative; float:left;">
+			<img src="/base_1/img/rooms/common/room_in.gif" width="70" height="70">
+			</div>
+			<div style="height:70px; position:relative; float:left;">
+			<p style="font-size:20px; margin-top:22px; margin-left:10px;">
+			Check-in
+			</p>
+			</div>
+		</div>
+		<div class="row" style="padding-left:27px">
+			<div style="height:70px; position:relative; float:left;">
+			<img src="/base_1/img/rooms/common/room_out.gif" width="70" height="70">
+			</div>
+			<div style="height:70px; position:relative; float:left;">
+			<p style="font-size:20px; margin-top:22px; margin-left:10px;">
+			Check-out
+			</p>
+			</div>
+		</div>
+	</div>
+	<div class="comment-div-1">
+		<p class="info2-comment-header">CHECK-IN/OUT TIME</p>
+		<p class="info2-comment-sub">입실 시간은 14:00<br>
+		퇴실 시간은 11:00 입니다.</p><br>
+		<p class="info2-comment">다음 손님 분들의 편의를 위해, 퇴실 시간을 꼭 지켜주시길 바랍니다.</p>
+	</div>
+</div>
+<div class="row info2-row">
+	<div class="icon-div-1">
+		<div class="row">
+			<center>
+				<img src="/base_1/img/reservation/info/icon3.gif" width="70" style="margin-right:20px; margin-left:-10px;">
+				<img src="/base_1/img/reservation/info/icon4.gif" width="70">
+			</center>
+		</div>
+	</div>
+	<div class="comment-div-1">
+		<p class="info2-comment-header">CHECK-OUT CLEANING</p>
+		<p class="info2-comment">퇴실 시, 사용하신 식기류는 정리해주시고<br>
+		객실 쓰레기는 분리수거 후 지정된 장소에 놓아주시길 바랍니다.</p>
+	</div>
+</div>
+<div class="row info2-row">
+	<div class="icon-div-2">
+		<center>
+			<img src="/base_1/img/reservation/info/icon5.gif">
+			<img src="/base_1/img/reservation/info/icon6.gif">
+			<img src="/base_1/img/reservation/info/icon7.gif">
+			<img src="/base_1/img/reservation/info/icon8.gif">
+		</center>
+	</div>
+	<div class="comment-div-2">
+		<p class="info2-comment-header">NOTICE</p>
+		<p class="info2-comment">
+		1. 귀중품은 꼭 소지해주세요. 분실 시 책임지지 않습니다.<br>
+		2. 미성년자는, 보호자의 동행이 없으면 이용이 불가능합니다.<br>
+		3. 안전사고에 유의해주시길 바랍니다. <br>
+		4. 이용객의 부주의로 발생한 사고에 대해서는 책임지지 않습니다.<br>
+		5. 낙서 및 기물 파손 시, 변상해주셔야 하오니 사용 시, 주의 부탁드립니다.<br>
+		6. 객실 내, 캔들 및 화기류의 반입을 금지하오니 준수하여 주시기 바랍니다.<br>
+		7. 객실 내, 금연입니다. 규정 위반 시 퇴실 조치는 물론 세탁비가 청구되오니 참고바랍니다.<br>
+		8. 객실 내, 육류(삼겹살, 소고기 등) 구이 및 튀김류 등은 조리가 불가합니다. 야외 바비큐시설을 이용해주시기 바랍니다.<br>
+		9. 늦은 밤 11시 이후의 고성방가 및 바비큐존 이용은 타 손님 분들의 휴식을 위하여 금하오니 양해바랍니다.
+		</p>
+	</div>
+</div>
+
+</div>
+<!-- END tab 2 -->
+
+<!-- tab 3 -->
+<div class="tab-info">
+<div class="row">
+<div class="col-sm-6">
+<table class="table table-bordered" style="text-align:center;">
+<thead>
+<tr class="table-header">
+<th style="text-align:center;">예약 취소 기간</th>
+<th style="text-align:center;">환불 가능 금액</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>7일 전 취소</td>
+<td>객실 금액의 50%</td>
+</tr>
+<tr class="even">
+<td>6일 전 취소</td>
+<td>객실 금액의 40%</td>
+</tr>
+<tr class="odd">
+<td>5일 전 취소</td>
+<td>객실 금액의 30%</td>
+</tr>
+<tr class="even">
+<td>4일 전 취소</td>
+<td>객실 금액의 20%</td>
+</tr>
+<tr class="odd">
+<td style="font-weight:bold;">3일 전 ~ 당일 취소</td>
+<td style="font-weight:bold;">환불 불가능</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="col-sm-6">
+<div class="info3-comment-wrapper">
+<p class="info3-comment-header">NOTICE</p><br>
+<p class="info3-comment">올바른 예약문화 정착을 위해 예약 취소 시,<br>
+취소/환불 규정을 좌측과 같이 운영하고 있사오니<br>
+예약 전, 꼭 확인하시고 신중하게 결정해주시기 바랍니다.</p>
+<p class="info3-comment">환불은 예약 시, 입력해주신 계좌로 보내드립니다.<br>
+(예약 시, 정확한 계좌 확인 후 입력해주시길 바랍니다.)</p>
+</div>
+</div>
+</div>
+</div> 
+<!-- END tab 3 -->
+
+</div>
+</div>
+</div>
+<div class="container button-container">
+	<center>
+		<div class="buttons-wrap">
+			<a href="{{$template}}/reservation.php" class="c-button m-right b-60 bg-3 korean-font" style="font-size:25px;">실시간 예약</a>
+		</div>
+	</center>
+</div>
+
+
+{{$footer2}}
+	</body>
+</html>

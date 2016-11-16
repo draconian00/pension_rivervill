@@ -1,0 +1,149 @@
+.nav-tab-item {
+  font-size: 1.3rem !important;
+}
+
+.table-header {
+  background: #FFF;
+  color: #000;
+  text-align: center;
+  vertical-align: center;
+  border-top: 2px solid #5AB3FC;
+  border-bottom: 2px solid #5AB3FC !important;
+  letter-spacing: 2px;
+}
+.odd {
+  background: #F8F8F8;
+}
+.even {
+  background: #F8F8F8;
+}
+
+
+.info2-row {
+  padding: 30px;
+  margin-bottom: 30px;
+  background: #fff;
+  border: 1px solid #5AB3FC;
+  border-radius: 10px;
+}
+.info2-row .icon-div-1 {
+  height: 100%;
+  width: 20%;
+  float: left;
+}
+.info2-row .comment-div-1 {
+  border-left: 1px solid #525252;
+  width: 80%;
+  float: left;
+  padding-left: 20px;
+}
+.info2-row .icon-div-2 {
+  width: 100%;
+  border-bottom: 1px solid #525252;
+  padding-bottom: 20px;
+}
+.info2-row .comment-div-2 {
+  padding: 30px 0px;
+  width: 100%;
+}
+
+.info2-row .icon-div-2 img {
+  width: 80px;
+  margin-right: 25px;
+}
+
+.info2-comment-header {
+  font-size: 24px;
+  font-weight: 800;
+  color: #5AB3FC;
+  margin-bottom: 5px;
+}
+.info2-comment-sub {
+  font-size: 18px;
+  line-height: 160%;
+  font-weight: 600;
+}
+
+/********************************************/
+.info-icon-border {
+  height: 200px;
+  width: 100%;
+  /*border: 2px solid #345A8C;*/
+  background: #fff;
+  border-radius: 10px;
+}
+.info-icon-border > center > img {
+  height: 100px;
+  margin: 30px 30px 0 30px;
+}
+.info-icon-border.full-width > center > img {
+  height: 100px;
+  margin: 30px 40px 0 40px;
+}
+.info2-comment-wrapper {
+  width: 80%;
+  margin: auto;
+}
+.info2-comment-header {
+  font-size: 25px;
+  font-weight: 400;
+}
+.info2-comment {
+  margin-top: 10px;
+  font-size: 18px;
+  line-height: 160%;
+}
+/***********************************/
+
+
+.info3-comment-wrapper {
+  padding: 40px 0px 40px 40px;
+  width: 100%;
+}
+.info3-comment-header {
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.info3-comment {
+  font-size: 18px;
+  line-height: 160%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+.nav-tab {
+  width: 80% !important;
+}
+.underline {
+  color: #222222;
+  font-size: 19px;
+}
+.active .underline {
+  color: #5AB3FC;
+}
+
+.active .underline:after {
+  display: block;
+}
+.underline:after {
+  display: none;
+  background: #5AB3FC;
+  margin-top: -7px !important;
+}
+
+.table-comment {
+  padding: 15px;
+  color: #fff;
+  background: #5AB3FC;
+  font-size: 15px;
+  letter-spacing: 2px;
+  line-height: 190%;
+}
+
+.button-container .buttons-wrap .c-button {
+  padding: 0px 50px !important;
+  border-radius: 0px;
+}
+

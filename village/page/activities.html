@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		{{$header}}
+
+		<script>
+		$('header').find('.active').removeClass('active');
+		$('header').find('.link_activities_1').parent('li').addClass('active');
+		</script>
+
+		<script>
+		$(function() {
+		var id = document.URL.split('?')[1]
+		$('#'+id).click();
+		})
+		</script>
+
+		<link href="http://devpub.cafe24.com/assets/css/rooms/list.css" rel="stylesheet" type="text/css"/>
+		<link href="http://devpub.cafe24.com/assets/css/activities/style.css" rel="stylesheet" type="text/css"/>
+	</head>
+	<body>
+		{{$menu_nav}}
+
+		<div class="inner-banner list-banner style-6 background-block" style="background-image: url('/base_1/img/activities/banner.jpg'');">
+		<img class="center-image" src="/base_1/img/activities/banner.jpg" alt="" style="display: none;">
+		<div class="vertical-align">
+		<div class="container">
+		<div class="row">
+		<div class="col-xs-12 col-md-8 col-md-offset-2">
+		<h1 class="color-white">ACTIVITIES</h1>
+		<p class="color-white banner-sub-title">Donggang Rivervill Village</p>
+		</div>
+		</div>
+		</div>
+		</div>
+		</div>
+
+		<div class="main-wraper" id="activities_header">
+		<div class="container">
+		<div class="row">
+		<div class="col-md-12">
+		<div class="second-title">
+		<h2>빌리지 즐길거리</h2>
+		</p>
+		</div>
+		</div>
+		</div>
+		</div>
+		</div>
+
+		<div class="container tab-container">
+		<div class="simple-tab tab-3 color-1 tab-wrapper">
+		<div class="tab-nav-wrapper">
+		<div class="nav-tab clearfix">
+		<div class="nav-tab-item active" id="tab_1">
+		<span class="underline">편의 시설</span>
+		</div>
+		<div class="nav-tab-item" id="tab_2">
+		<span class="underline">동강의 꽃, 래프팅</span>
+		</div>
+		<div class="nav-tab-item" id="tab_3">
+		<span class="underline">주변 관광지</span>
+		</div>                          
+		</div>
+		</div>
+		<div class="tabs-content clearfix">
+
+		<!-- tab 1-->
+		<div class="tab-info active">
+		<div class="tab-comment">
+		</div>
+		<div class="row" style="margin-top:30px;">
+		<div class="col-sm-7">
+		<div class="item gal-item facillity-main">
+		<a class="black-hover">
+		<img class="img-full img-responsive" src="/base_1/img/activities/tab1/facillity1.jpg" alt="">
+		<div class="tour-layer delay-1"></div>
+		<div class="vertical-align">
+		<h3 class="color-white"><b>들마루</b></h3>
+		</div>
+		</a>
+		</div>
+		</div>
+		<div class="col-sm-5">
+		<div class="row">
+		<div class="col-sm-12">
+		<div class="item gal-item facillity-sub">
+		<a class="black-hover">
+		<img class="img-full img-responsive" src="/base_1/img/activities/tab1/facillity2.jpg" alt="">
+		<div class="tour-layer delay-1"></div>
+		<div class="vertical-align">
+		<h3 class="color-white"><b>파라솔과 벤치</b></h3>
+		</div>
+		</a>
+		</div>
+		</div>
+		</div>
+		<div class="row" style="margin-top:30px;">
+		<div class="col-sm-12">
+		<div class="item gal-item facillity-sub">
+		<a class="black-hover">
+		<img class="img-full img-responsive" src="/base_1/img/activities/tab1/facillity3.jpg" alt="">
+		<div class="tour-layer delay-1"></div>
+		<div class="vertical-align">
+		<h3 class="color-white"><b>셀프 바비큐 존</b></h3>
+		</div>
+		</a>
+		</div>
+		</div>
+		</div>
+		</div>
+		</div>
+		</div>
+		<!-- END tab 1-->
+
+		<!-- tab 2-->
+		<div class="tab-info">
+		<center style="margin-top:30px;">
+		<img class="rafting-img" src="/base_1/img/activities/tab2/rafting1.jpg">
+		<div class="row rafting-content">
+			<div class="col-md-4 col-sm-6 col-xs-12 padding-0">
+				<img class="img-full img-responsive" src="/base_1/img/activities/tab2/rafting2.jpg">
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-12 padding-0">
+				<img class="img-full img-responsive" src="/base_1/img/activities/tab2/rafting3.jpg">
+			</div>
+			<div class="col-md-4 col-sm-12 col-xs-12 comment padding-0">
+				<p id="p1">
+					동강의 비경을 볼 수 있는 가족,<br>
+					소그룹 단위 최적의 래프팅 코스
+				</p>
+				<p id="p2">
+					<span class="hl1">문산나루 -> 섭세강변 (거리 12km)</span><br>
+					소요 시간 : 2시간 30분 ~ 3시간<br>
+					요금 : <span class="hl2">개인 35,000원</span> / <span class="hl2">단체 30,000원</span>
+				</p>
+			</div>
+		</div>
+		</center>
+		</div>
+		<!-- END tab 2 -->
+
+		<!-- tab 3 -->
+<div class="tab-info">
+<div class="row" style="margin-top: 15px; margin-bottom: 15px;">
+
+<div class="col-sm-6">
+<img class="extra-img" src="/base_1/img/activities/tab3/extra1.jpg">
+<div class="extra-comment-wrapper">
+<div class="text-center">
+<p class="extra-comment">‘별을 보는 고요한 정상’ 이라는 뜻.<br>
+천체 관측은 물론 산 정상에서의 영월 야경도<br>
+함께 감상할 수 있습니다.</p><br>
+<div class="buttons-wrap margin-0">
+<a onclick="window.open('http://www.yao.or.kr:451')" class="c-button m-right bg-2 margin-0">바로 가기 >></a>
+</div>
+</div>
+</div>
+</div>
+
+<div class="col-sm-6">
+<img class="extra-img" src="/base_1/img/activities/tab3/extra2.jpg">
+<div class="extra-comment-wrapper">
+<div class="text-center">
+<p class="extra-comment">동강에 서식하는 희귀동식물을 비롯하여<br>
+동강 래프팅을 3D 가상으로 체험할 수 있으며<br>
+다양한 동물모양의 야외 분수들도 감상할 수 있습니다.
+</p><br>
+<div class="buttons-wrap margin-0">
+<a onclick="window.open('http://www.donggang-ecopark.com')" class="c-button m-right bg-2 margin-0">바로 가기 >></a>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+<div class="row" style="margin-top: 15px; margin-bottom: 15px;">
+
+<div class="col-sm-6">
+<img class="extra-img" src="/base_1/img/activities/tab3/extra3.jpg">
+<div class="extra-comment-wrapper">
+<div class="text-center">
+<p class="extra-comment">고기가 비단결 같이 떠오르는 연못‘ 이라는 뜻.<br>
+동강의 많은 비경 중 가장 경치가 빼어난 계곡이며<br>
+동강 래프팅 코스로도 유명합니다.
+</p><br>
+<div class="buttons-wrap margin-0">
+<a onclick="window.open('http://www.ywtour.com/Enjoy?num=54161')" class="c-button m-right bg-2 margin-0">바로 가기 >></a>
+</div>
+</div>
+</div>
+</div>
+
+<div class="col-sm-6">
+<img class="extra-img" src="/base_1/img/activities/tab3/extra4.jpg">
+<div class="extra-comment-wrapper">
+<div class="text-center">
+<p class="extra-comment">2009년 유네스코 세계문화유산에 등재.<br>
+17세의 어린 나이에 사약을 받고 승하한<br>
+조선 제6대 임금인 단종의 능입니다.
+</p><br>
+<div class="buttons-wrap margin-0">
+<a onclick="window.open('http://www.ywtour.com/Enjoy?num=53104')" class="c-button m-right bg-2 margin-0">바로 가기 >></a>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+
+<div class="row" style="margin-top: 15px; margin-bottom: 15px;">
+
+<div class="col-sm-6">
+<img class="extra-img" src="/base_1/img/activities/tab3/extra5.jpg">
+<div class="extra-comment-wrapper">
+<div class="text-center">
+<p class="extra-comment">‘나룻배로만 출입할 수 있는 섬 같은 곳.<br> 
+조선 제 6대 왕인 단종이 숙부인 수양대군에게<br>
+왕위를 친탈당한 후 보내진 단종의 유배지입니다.
+</p><br>
+<div class="buttons-wrap margin-0">
+<a onclick="window.open('http://www.ywtour.com/Enjoy?num=53200')" class="c-button m-right bg-2 margin-0">바로 가기 >></a>
+</div>
+</div>
+</div>
+</div>
+
+<div class="col-sm-6">
+<img class="extra-img" src="/base_1/img/activities/tab3/extra6.jpg">
+<div class="extra-comment-wrapper">
+<div class="text-center">
+<p class="extra-comment">임진왜란 당시 왜병과 싸운 고씨 가족들이<br>
+피난하였던 곳이라 하여 붙여진 이름으로<br>
+4억년 전부터 형성된 석회동굴입니다.
+</p><br>
+<div class="buttons-wrap margin-0">
+<a onclick="window.open('http://www.ywtour.com/Enjoy?num=53133')" class="c-button m-right bg-2 margin-0">바로 가기 >></a>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+
+<div class="row" style="margin-top: 15px; margin-bottom: 15px;">
+
+
+<div class="col-sm-6">
+<img class="extra-img" src="/base_1/img/activities/tab3/extra7.jpg">
+<div class="extra-comment-wrapper">
+<div class="text-center">
+<p class="extra-comment">기암괴석의 비경(높이 약 70M)으로,<br>
+마치 큰 칼로 절벽을 쪼개 내리다<br>
+그친 형상을 이룬 암석입니다.
+</p><br>
+<div class="buttons-wrap margin-0">
+<a onclick="window.open('http://www.ywtour.com/Enjoy?num=55059')" class="c-button m-right bg-2 margin-0">바로 가기 >></a>
+</div>
+</div>
+</div>
+</div>
+
+<div class="col-sm-6">
+<img class="extra-img" src="/base_1/img/activities/tab3/extra8.jpg">
+<div class="extra-comment-wrapper">
+<div class="text-center">
+<p class="extra-comment">해학과 재치와 풍류로 한 세상을 살다간<br>
+조선 후기 방랑 시인, 난고 김삿갓의<br>
+생애와 문학세계를 한눈에 볼 수 있습니다.
+</p><br>
+<div class="buttons-wrap margin-0">
+<a onclick="window.open('http://www.ywtour.com/Enjoy?num=55027')" class="c-button m-right bg-2 margin-0">바로 가기 >></a>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+</div> 
+<!-- END tab 3 -->
+
+		</div>
+		</div>
+		</div>
+
+		{{$footer}}
+	</body>
+</html>

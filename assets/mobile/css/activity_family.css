@@ -1,0 +1,32 @@
+.tab-wrapper {
+  height: 50px;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.tab-wrapper .tab-btn {
+  padding: 10px;
+  height: 100%;
+}
+.tab-wrapper .tab-btn.active {
+  color: #FFF;
+  background: #0092D3; 
+}
+
+.act-content {
+  display: none;
+}
+.act-content.active {
+  display: block;
+}
+
+.act-1-comment-wrapper {
+  padding: 0 30px 0 15px;
+}
+.act-1-comment {
+  text-align: left !important;
+}
+h4.act-1-comment {
+  margin-bottom: 10px;
+  font-weight: 800;
+}

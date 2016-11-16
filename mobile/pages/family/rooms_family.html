@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+<meta charset="euc-kr">
+<!--<meta charset="utf-8">-->
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+<meta name="format-detection" content="telephone=no" />
+
+<!--<link rel="shortcut icon" href="favicon.ico"/>-->
+<!--<link href="http://devpub.cafe24.com/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" crossorigin="anonymous"/>-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link href="http://devpub.cafe24.com/assets/css/jquery-ui.structure.min.css" rel="stylesheet" type="text/css"/>
+<link href="http://devpub.cafe24.com/assets/css/jquery-ui.min.css" rel="stylesheet" type="text/css"/>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<link href="http://devpub.cafe24.com/assets/css/style.css" rel="stylesheet" type="text/css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.0/css/swiper.min.css">
+
+<script src="http://devpub.cafe24.com/assets/js/jquery-2.1.4.min.js"></script>
+<script src="http://devpub.cafe24.com/assets/js/bootstrap.min.js"></script>
+<script src="http://devpub.cafe24.com/assets/js/jquery-ui.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.0/js/swiper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.0/js/swiper.jquery.min.js"></script>
+<script src="http://devpub.cafe24.com/assets/js/jquery.viewportchecker.min.js"></script>
+
+<script src="http://devpub.cafe24.com/assets/js/isotope.pkgd.min.js"></script>
+<script src="http://devpub.cafe24.com/assets/js/jquery.mousewheel.min.js"></script>
+<title>동강리버빌</title>
+
+<link rel="stylesheet" type="text/css" href="http://devpub.cafe24.com/assets/mobile/css/common.css">
+<script src="http://devpub.cafe24.com/assets/mobile/js/common.js"></script>
+<link rel="stylesheet" type="text/css" href="http://devpub.cafe24.com/assets/mobile/css/rooms_family.css">
+<script src="http://devpub.cafe24.com/assets/mobile/js/rooms_family.js"></script>
+</HEAD>
+<BODY topmargin="0" leftmargin="0">
+
+	{{$family_nav_menu}}
+<!--본문 시작-->
+	<div id="contentsArea">
+		<div class="rooms-nav">
+			<div class="col-xs-6 centerPseudo rooms-nav-btn active" data-room="1">
+				<span class="centerPseudo">1 FLOOR</span>
+			</div>
+			<div class="col-xs-6 centerPseudo rooms-nav-btn" data-room="2">
+				<span class="centerPseudo">2 FLOOR</span>
+			</div>
+		</div>
+
+		<div class="rooms-content-wrapper">
+			<div class="rooms-content room-1 active">
+				<h3 class="header nanum-gothic">1 FLOOR</h3>
+				<h4 class="header-sub nanum-gothic">모두 둘러 앉아도 넉넉할 정도의<br>너른 침실을 자랑하는 1층</h4>
+				<p class="header-content nanum-gothic">
+					각종 편의시설과 가까운 위치,<br>
+					4개의 룸과 공동 화장실로 이루어져<br>
+					단체 여행의 즐거움을 제공합니다.
+				</p>
+
+				<div id="room_1_swiper" class="swiper-container">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<img class="room-images" src="/base_1/img/mobile/eaeaea.png">
+						</div>
+						<div class="swiper-slide">
+							
+						</div>
+						<div class="swiper-slide">
+							<img class="room-images" src="/base_1/img/mobile/eaeaea.png">
+						</div>
+					</div>
+					<div class="swiper-button-next"></div>
+					<div class="swiper-button-prev"></div>
+				</div>
+			</div>
+			<div class="rooms-content room-2">
+				<h3 class="header nanum-gothic">2 FLOOR</h3>
+				<h4 class="header-sub nanum-gothic">아늑한 침실과 자연채광의 완벽한 조화,<br>탁 트인 전망을 자랑하는 2층</h4>
+				<p class="header-content nanum-gothic">
+					개별 화장실이 포함된 4개의 룸,<br>
+					너른 거실과 주방으로 이루어져<br>
+					편안한 휴식을 제공합니다.
+				</p>
+
+				<div id="room_2_swiper" class="swiper-container">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<img class="room-images" src="/base_1/img/mobile/eaeaea.png">
+						</div>
+						<div class="swiper-slide">
+							
+						</div>
+						<div class="swiper-slide">
+							<img class="room-images" src="/base_1/img/mobile/eaeaea.png">
+						</div>
+					</div>
+					<div class="swiper-button-next"></div>
+					<div class="swiper-button-prev"></div>
+				</div>
+			</div>
+
+			<div class="rooms-common-content">
+				<div class="faq-wrapper">
+					<h4 class="faq-header nanum-gothic">ROOMS DETAILS FAQ</h4>
+					<h5 class="faq-header-sub nanum-gothic" data-faq="1">
+						체크인 및 체크아웃 시간이 궁금해요
+						<span class="glyphicon glyphicon-chevron-down"></span>
+					</h5>
+					<p class="faq-content nanum-gothic faq-1 active">
+						체크인은 14:00부터,<br>
+						체크아웃은 11:00까지 입니다.<br>
+						다음 손님 분들의 편의를 위해,<br>
+						퇴실 시간을 꼭 지켜주시길 바랍니다.
+					</p>
+					<h5 class="faq-header-sub nanum-gothic" data-faq="2">
+						 어떤 종류의 가구 및<br>전자제품이 있는지 궁금해요
+						<span class="glyphicon glyphicon-chevron-down"></span>
+					</h5>
+					<p class="faq-content nanum-gothic faq-2">
+						1층 TV, 협탁, 에어컨 / 2층 TV, 협탁, 냉장고, 식탁<br>
+						외출 시, 에어컨의 전원은 꺼주시길 바랍니다.
+					</p>
+					<h5 class="faq-header-sub nanum-gothic" data-faq="3">
+						주방 조리 도구는<br>어떤 종류가 있는지 궁금해요
+						<span class="glyphicon glyphicon-chevron-down"></span>
+					</h5>
+					<p class="faq-content nanum-gothic faq-3">
+						인덕션 레인지, 밥솥, 전기주전자, 각종 냄비 및 프라이팬 류, 각종 조리 기구 및 식기류 등이 준비되어 있습니다.<br>
+						(2층만 해당되며, 1층은 준비되어 있지 않습니다.)<br>
+						퇴실 시, 사용하신 식기류는 정리해주시고<br>
+						객실 쓰레기는 분리 수거 후 지정된 장소에 놓아주시길 바랍니다.
+					</p>
+				</div>
+
+				<div class="info-wrapper">
+					<h4 class="info-header nanum-gothic">ROOM INFO</h4>
+					<center>
+						<h5 class="area-info nanum-gothic active" id="room_area_info_1">
+							25명 기준 | 132m<sup>2</sup>
+						</h5>
+						<h5 class="area-info nanum-gothic" id="room_area_info_2">
+							12명 기준 | 132m<sup>2</sup>
+						</h5>
+					</center>
+					<p class="info-content">
+						객실이용에 따른 더 자세한 사항은<br>
+						공지사항을 참고 부탁드리며,<br>
+						기타 궁금한 사항은 아래 연락처로<br>
+						문의 바랍니다.<br><br>
+						입실(CHECK-IN TIME) 14:00<br>
+						퇴실(CHECK-OUT TIME) 11:00<br><br>
+						010-7347-0086<br>
+						010-8796-0086
+					</p>
+				</div>
+			</div>
+		</div>
+
+		{{$m_family_footer}}
+	</div end>
+<!--본문 끝-->
+</BODY>
+</HTML>

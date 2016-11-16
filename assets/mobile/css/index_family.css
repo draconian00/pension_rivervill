@@ -1,0 +1,127 @@
+.main-comment {
+  padding: 10px;
+}
+.main-comment .comment-header {
+  text-align: center;
+  font-size: 1.7rem;
+  font-weight: 800;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.main-comment .comment-header-sub {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+
+.overview-banner {
+  width: 95%;
+  height: 200px;
+  margin: auto;
+}
+.overview-comment {
+  padding: 10px;
+}
+.overview-comment .comment-header {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.overview-comment .comment {
+  line-height: 1.3;
+  margin-bottom: 30px;
+}
+
+.room-section {
+  width: 100%;
+  height: 500px;
+}
+.room-banner {
+  width: 100%;
+}
+.room-banner .main-img-div {
+  padding: 0px !important;
+  height: 200px;
+}
+.room-banner .sub-img-div {
+  padding: 0px !important;
+  height: 100px;
+  overflow: hidden;
+}
+.room-banner .first-sub {
+  border: solid 10px rgba(255,255,255,0.6);
+}
+.room-banner div #main_img {
+  height: 200px;
+}
+.room-banner div #sub_img_1,.room-banner div #sub_img_2,.room-banner div #sub_img_3 {
+  height: 100px;
+}
+.selected_sub_img {
+  height: 80px;
+}
+
+.room-comment {
+  padding: 10px;
+}
+.room-comment #comment_1 {
+  text-align: center;
+}
+.room-comment #comment_2 {
+  text-align: center;
+  display: none;
+}
+.room-comment #comment_3 {
+  text-align: center;
+  display: none;
+}
+.room-comment div .comment-header {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.room-comment div .comment {
+
+}
+
+.food-wrapper,
+.activity-wrapper,
+.location-wrapper {
+  margin: 15px 0 15px 0;
+}
+
+.food-banner {
+  width: 100%;
+}
+.food-banner img {
+  height: 200px;
+}
+.food-comment {
+  padding: 10px;
+  text-align: center;
+}
+
+.activity-banner {
+  width: 100%;
+}
+.activity-banner img {
+  height: 200px;
+}
+.activity-comment {
+  padding: 10px;
+  text-align: center;
+}
+
+.location-banner {
+  width: 100%;
+}
+.location-banner img {
+  height: 200px;
+}
+.location-comment {
+  padding: 10px;
+  text-align: center;
+}

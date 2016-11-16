@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+{{$header}}
+
+<script>
+	$(document).ready(function() {
+		$('body').attr('data-color','theme-6');
+	});
+</script>
+
+<script>
+$('header').find('.active').removeClass('active');
+$('header').find('.link_room_list').parent('li').addClass('active');
+</script>
+
+<link href="http://devpub.cafe24.com/assets/css/rooms/list.css" rel="stylesheet" type="text/css"/>
+	</head>
+	<body>
+{{$menu_nav2}}
+
+<div class="inner-banner list-banner style-6 background-block" style="background-image: url('/base_1/img/room_list/banner.jpg'');">
+<img class="center-image" src="/base_1/img/family/room_list/banner.jpg" alt="" style="display: none;">
+<div class="vertical-align">
+<div class="container">
+<div class="row">
+<div class="col-xs-12 col-md-8 col-md-offset-2">
+<h1 class="color-white">ROOMS STYLE</h1>
+<p class="color-white banner-sub-title">Donggang Rivervill Family</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="main-wraper">
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<div class="second-title">
+<h2 class="korean-font">패밀리 객실</h2>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="main-wraper">
+<div class="row">
+<div class="col-md-12">
+<div class="second-title">
+<h2>ROOMS</h2>
+</div>
+</div>
+</div>
+
+{{$family_1}}
+
+<div class="row all-rooms-btn-wrapper">
+<div class="vertical-align text-center">
+<div class="buttons-wrap margin-0">
+<a id="f_all_room_btn" href="#" class="c-button m-right b-60 bg-6 margin-0">
+<img id="f_all_room_icon" src="/base_1/img/main/rooms/icon/room_icon_03_w_128.gif">
+<span>ALL OUR ROOMS</span>
+</a>
+</div>
+</div>
+</div>
+
+{{$family_2}}
+
+</div>
+</div>
+
+{{$footer2}}
+	</body>
+</html>

@@ -32,8 +32,44 @@
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 /* 01 - FONTS */
 /*-------------------------------------------------------------------------------------------------------------------------------*/
-
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800,400italic);
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+.korean-font {
+    font-family: 'Nanum Gothic', sans-serif !important;
+}
+.offers-arrow {
+    background: #2E3D50 !important;
+}
+.offers-arrow:hover {
+    background: #fff !important;
+    border: 5px solid #2E3D50 !important;
+}
+.text-center {
+    text-align: center;
+}
+.margin-0 {
+    margin: 0 !important;
+}
+.margin-left-20 {
+    margin-left: 20px !important;
+}
+.margin-right-20 {
+    margin-right: 20px !important;
+}
+.margin-top-10 {
+    margin-top: 10px !important;
+}
+.margin-top-20 {
+    margin-top: 20px !important;
+}
+.float-l {
+    float: left !important;
+}
+.float-r {
+    float: right !important;
+}
+
 
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 /* 02 - RESET STYLES */
@@ -1561,7 +1597,7 @@ nav li.type-4 .dropmenu .fa-chevron-right { display: none; }
 
 .underline { position: relative; display: inline-block; }
 
-.underline:after { content: ''; width: 100%; background: #FFF; height: 5px; position: relative; display: block; float: none; margin: 13px 0 0px; -webkit-transition: all 0.3s ease-in; -moz-transition: all 0.3s ease-in; -o-transition: all 0.3s ease-in; transition: all 0.3s ease-in; }
+.underline:after { content: ''; width: 100%; background: #FFF; height: 2px; position: relative; display: block; float: none; margin: 13px 0 0px; -webkit-transition: all 0.3s ease-in; -moz-transition: all 0.3s ease-in; -o-transition: all 0.3s ease-in; transition: all 0.3s ease-in; }
 
 .underline:before { width: 0%; right: 0px; background: #F60; height: 5px; position: absolute; display: block; float: none; content: ''; bottom: 0px; -webkit-transition: all 800ms cubic-bezier(0.23, 1, 0.32, 1.1); -moz-transition: all 800ms cubic-bezier(0.23, 1, 0.32, 1.1); -o-transition: all 800ms cubic-bezier(0.23, 1, 0.32, 1.1); transition: all 800ms cubic-bezier(0.23, 1, 0.32, 1.1); }
 

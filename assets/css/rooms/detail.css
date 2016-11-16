@@ -1,0 +1,134 @@
+.margin-top-20 {
+  margin-top: 20px !important; 
+}
+
+.list-banner {
+  width: 100%;
+  height: 450px;
+}
+.banner-sub-title {
+  letter-spacing: 14px;
+}
+
+/*ROOM ICON*/
+.detail-info-icon-wrapper {
+    border: 2px solid #525252;
+    /*border: 2px solid #FFF;*/
+    width: 220px;
+    height: 56px;
+    border-radius: 6px;
+    margin: 0;
+}
+.detail-info-icon-leftbox {
+    height: 48px;
+    border-right: 1px solid #525252;
+    /*border-right: 1px solid #FFF;*/
+    padding: 0 5px 0 5px;
+    margin: 2px 0 2px 0;
+}
+.border-white {
+  border: 2px solid #FFF !important;
+  color: #fff !important;
+}
+.border-white-right {
+  border-right: 1px solid #FFF !important;
+}
+.detail-info-icon-rightbox {
+    height:48px;
+    padding:0 5px 0 5px;
+    margin:2px 0 2px 0;
+}
+.detail-info-icon-content-wrapper {
+    width: 50%;
+    height: 100%;
+    float: left;
+    position: relative;
+    color: #525252;
+}
+.color-white {
+  color: #fff !important;
+}
+.room-info-icon-1 {
+    width: 36px;
+    height: 36px;
+    /*background: url('/base_1/img/main/rooms/icon/room_icon_01_128.gif');*/
+    background-size: cover !important;
+    margin: auto;
+    margin-top: 6px;
+}
+.room-info-icon-2 {
+    width: 36px;
+    height: 36px;
+    /*background: url('/base_1/img/main/rooms/icon/room_icon_02_128.gif');*/
+    background-size: cover !important;
+    margin: auto;
+    margin-top: 6px;
+}
+.room-info-icon-comment {
+    text-align: center;
+    font-size: 14px;
+}
+.room-info-icon-comment > sup {
+    font-size: 10px;
+}
+/*END ROOM ICON*/
+
+.line {
+  width: 50px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  border-top: 2px solid #F96700;
+}
+
+.comment {
+  color: #525252;
+  font-size: 23px;
+  font-family: 'Nanum Gothic', sans-serif;
+  margin-top: 50px;
+  line-height: 150%;
+}
+.comment > span.comment-header {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.main-swiper {
+  width: 1000px;
+  height: 600px;
+}
+
+.thumb-swiper {
+  width: 1000px;
+  height: 120px;
+}
+
+.faq-wrapper {
+  width: 1000px;
+  margin: auto;
+}
+
+.item {
+  height: 300px;
+}
+
+.detail-content-block > h3 {
+  margin-bottom: 20px;
+}
+
+.acc-body > h5 {
+  line-height: 180% !important;
+}
+.help-contact .help-mail img {
+  margin: 0 !important;
+}
+.phone-num {
+  font-size: 16px !important;
+}
+a.help-mail {
+  margin-left: -10px !important;
+}
+
+
+.slider-wth-thumbs.style-2 .thumbnails .swiper-slide:before {
+  border: 10px solid rgba(255,255,255,0.7) !important;
+}

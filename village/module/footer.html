@@ -1,0 +1,81 @@
+<link href="http://devpub.cafe24.com/assets/css/footer/style.css" rel="stylesheet" type="text/css"/>
+
+<script>
+$(function() {
+link_text();
+})
+
+function link_text() {
+	var temp;
+	$('header li.type-1 > a').on('mouseover', function() {
+		temp = $(this).html();
+
+		if (temp.match('BOOK')) {
+			$(this).html(`
+			<i class="fa fa-plus-square" style="display:inline-block; margin-right:5px;"></i>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;예약 하기&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`);
+		} else if (temp.match("HOME")) {
+			$(this).html("&nbsp;&nbsp;&nbsp;&nbsp;홈&nbsp;&nbsp;&nbsp;");
+		} else if (temp.match("ROOMS")) {
+			$(this).html("&nbsp;&nbsp;&nbsp;&nbsp;객실&nbsp;&nbsp;&nbsp;");
+		} else if (temp.match("FOOD")) {
+			$(this).html("&nbsp;&nbsp;먹거리&nbsp;&nbsp;&nbsp;");
+		} else if (temp.match("ACTIVITIES")) {
+			$(this).html("&nbsp;&nbsp;&nbsp;즐길거리&nbsp;&nbsp;");
+		} else if (temp.match("LOCATION")) {
+			$(this).html("&nbsp;&nbsp;&nbsp;오시는 길&nbsp;&nbsp;");
+		} else if (temp.match("COMMUNITY")) {
+			$(this).html("&nbsp;&nbsp;커뮤니티&nbsp;&nbsp;");
+		}
+
+	});
+
+	$('header li.type-1 > a').on('mouseout', function() {
+		if (temp.match('BOOK')) {
+			$(this).html(temp);
+		} else {
+			$(this).html(temp);
+		}
+	});
+}
+</script>
+
+
+<footer class="bg-dark type-2">
+	<div class="container">
+		<center>
+			<img id="footer_logo" src="/base_1/img/main/header/main_logo_250.gif">
+			<div class="footer-content-wrapper">
+				<span id="contact_text">CONTACT INFO</span>
+				<p class="korean-font">강원도 영월군 영월읍 섭새길 86-1</p>
+				
+				<table class="table text-center" style="width: 330px;">
+					<tr>
+						<td rowspan="2" style="border:none !important; padding:20px 10px 12px 40px;">
+							<img src="/base_1/img/main/location/icon1.png">
+						</td>
+						<td rowspan="1" style="border:none !important; color:white; font-size:18px; padding-bottom:0px;">H. 010-7347-0086</td>
+					</tr>
+					<tr>
+						<td rowspan="1" style="border:none !important; color:white; font-size:18px;">H. 010-8796-0086</td>
+					</tr>
+				</table>
+
+				<p class="korean-font">
+					<span>입금계좌 : </span>
+					<span style="position:relative; width:25px;">
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<img id="bank_icon" src="/base_1/img/footer/bank_icon.png">
+					</span>
+					<span>농협 351-0489-584653 | 예금주 : 강대인</span>
+				</p>
+			</div>
+			<div class="footer-icon-wrapper"></div>
+		</center>
+	</div>
+	<div class="copyright">
+		<center class="vertical-align">
+		COPTRIGHT <small>© 2016</small> DONG-GANG RIVERVILL ALL RIGHTS RESERVED
+		</center>
+	</div>
+</footer>
