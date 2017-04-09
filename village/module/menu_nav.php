@@ -1,4 +1,4 @@
-<link href="http://devpub.cafe24.com/assets/css/menu_nav/style.css" rel="stylesheet" type="text/css"/>
+<link href="http://ec2-13-124-53-161.ap-northeast-2.compute.amazonaws.com/assets/css/menu_nav/style.css" rel="stylesheet" type="text/css"/>
 
 <header class="color-1 hovered menu-3">
 <div class="container">
