@@ -40,6 +40,7 @@
 <li><a class="link_a_room">A 룸</a></li>
 <li><a class="link_b_room">B 룸</a></li>
 <li><a class="link_c_room">C 룸</a></li>
+<li><a class="link_family_room">FAMILY 룸</a></li>
 </ul>
 </li>
 <li class="type-1"><a class="link_food">FOOD<span class="fa fa-angle-down"></span></a>

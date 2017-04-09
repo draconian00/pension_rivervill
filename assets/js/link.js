@@ -51,7 +51,7 @@ function link_text() {
 }
 
 
-var url = 'http://bakas001.cafe24.com/default/'
+var url = 'http://erivervillage.com/default/';
 
 function link_main() {
   $('.link_main').on('click', function() {
@@ -81,9 +81,9 @@ function link_rooms() {
     location.href = url+"rooms/c_room.php";
   });
 
-  // $('.link_family_room').on('click', function() {
-  //   location.href = url+"rooms/family_room.php";
-  // });
+  $('.link_family_room').on('click', function() {
+    location.href = url+"rooms/family_room.php";
+  });
 }
 
 function link_food() {
