@@ -1,187 +1,288 @@
 <!DOCTYPE html>
 <HTML>
 <HEAD>
-<meta charset="euc-kr">
-<!--<meta charset="utf-8">-->
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<meta name="apple-mobile-web-app-capable" content="yes" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
-<meta name="format-detection" content="telephone=no" />
+	<meta charset="euc-kr">
+	<!--<meta charset="utf-8">-->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+	<meta name="format-detection" content="telephone=no" />
 
-<!--<link rel="shortcut icon" href="favicon.ico"/>-->
-<!--<link href="http://ec2-13-124-53-161.ap-northeast-2.compute.amazonaws.com/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" crossorigin="anonymous"/>-->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-<link href="http://ec2-13-124-53-161.ap-northeast-2.compute.amazonaws.com/assets/css/jquery-ui.structure.min.css" rel="stylesheet" type="text/css"/>
-<link href="http://ec2-13-124-53-161.ap-northeast-2.compute.amazonaws.com/assets/css/jquery-ui.min.css" rel="stylesheet" type="text/css"/>
-<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-<link href="http://ec2-13-124-53-161.ap-northeast-2.compute.amazonaws.com/assets/css/style.css" rel="stylesheet" type="text/css"/>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.0/css/swiper.min.css">
+	<!--<link rel="shortcut icon" href="favicon.ico"/>-->
+	<!--<link href="http://ec2-13-124-53-161.ap-northeast-2.compute.amazonaws.com/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" crossorigin="anonymous"/>-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="http://ec2-13-124-53-161.ap-northeast-2.compute.amazonaws.com/assets/css/jquery-ui.structure.min.css" rel="stylesheet" type="text/css"/>
+	<link href="http://ec2-13-124-53-161.ap-northeast-2.compute.amazonaws.com/assets/css/jquery-ui.min.css" rel="stylesheet" type="text/css"/>
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link href="http://ec2-13-124-53-161.ap-northeast-2.compute.amazonaws.com/assets/css/style.css" rel="stylesheet" type="text/css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.0/css/swiper.min.css">
 
-<script src="http://ec2-13-124-53-161.ap-northeast-2.compute.amazonaws.com/assets/js/jquery-2.1.4.min.js"></script>
-<script src="http://ec2-13-124-53-161.ap-northeast-2.compute.amazonaws.com/assets/js/bootstrap.min.js"></script>
-<script src="http://ec2-13-124-53-161.ap-northeast-2.compute.amazonaws.com/assets/js/jquery-ui.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.0/js/swiper.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.0/js/swiper.jquery.min.js"></script>
-<script src="http://ec2-13-124-53-161.ap-northeast-2.compute.amazonaws.com/assets/js/jquery.viewportchecker.min.js"></script>
+	<script src="http://ec2-13-124-53-161.ap-northeast-2.compute.amazonaws.com/assets/js/jquery-2.1.4.min.js"></script>
+	<script src="http://ec2-13-124-53-161.ap-northeast-2.compute.amazonaws.com/assets/js/bootstrap.min.js"></script>
+	<script src="http://ec2-13-124-53-161.ap-northeast-2.compute.amazonaws.com/assets/js/jquery-ui.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.0/js/swiper.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.0/js/swiper.jquery.min.js"></script>
+	<script src="http://ec2-13-124-53-161.ap-northeast-2.compute.amazonaws.com/assets/js/jquery.viewportchecker.min.js"></script>
 
-<script src="http://ec2-13-124-53-161.ap-northeast-2.compute.amazonaws.com/assets/js/isotope.pkgd.min.js"></script>
-<script src="http://ec2-13-124-53-161.ap-northeast-2.compute.amazonaws.com/assets/js/jquery.mousewheel.min.js"></script>
-<title>동강리버빌</title>
+	<script src="http://ec2-13-124-53-161.ap-northeast-2.compute.amazonaws.com/assets/js/isotope.pkgd.min.js"></script>
+	<script src="http://ec2-13-124-53-161.ap-northeast-2.compute.amazonaws.com/assets/js/jquery.mousewheel.min.js"></script>
+	<title>동강리버빌</title>
 
-<link rel="stylesheet" type="text/css" href="http://ec2-13-124-53-161.ap-northeast-2.compute.amazonaws.com/assets/mobile/css/common.css">
-<script src="http://ec2-13-124-53-161.ap-northeast-2.compute.amazonaws.com/assets/mobile/js/common.js"></script>
-<link rel="stylesheet" type="text/css" href="http://ec2-13-124-53-161.ap-northeast-2.compute.amazonaws.com/assets/mobile/css/rooms_village.css">
-<script src="http://ec2-13-124-53-161.ap-northeast-2.compute.amazonaws.com/assets/mobile/js/rooms_village.js"></script>
+	<link rel="stylesheet" type="text/css" href="http://ec2-13-124-53-161.ap-northeast-2.compute.amazonaws.com/assets/mobile/css/common.css">
+	<script src="http://ec2-13-124-53-161.ap-northeast-2.compute.amazonaws.com/assets/mobile/js/common.js"></script>
+	<link rel="stylesheet" type="text/css" href="http://ec2-13-124-53-161.ap-northeast-2.compute.amazonaws.com/assets/mobile/css/rooms_village.css">
+	<script src="http://ec2-13-124-53-161.ap-northeast-2.compute.amazonaws.com/assets/mobile/js/rooms_village.js"></script>
 </HEAD>
 <BODY topmargin="0" leftmargin="0">
 
-	{{$nav_menu}}
+{{$nav_menu}}
 <!--본문 시작-->
-	<div id="contentsArea">
-		<div class="rooms-nav">
-			<div class="col-xs-4 centerPseudo rooms-nav-btn active" data-room="a">
-				<span class="centerPseudo">Room A</span>
+<div id="contentsArea" style="margin-top:120px;">
+	<div class="rooms-nav" style="height:66px;">
+		<div class="col-xs-3 centerPseudo rooms-nav-btn active" data-room="a" style="height:66px;">
+			<span class="centerPseudo">A Room</span>
+		</div>
+		<div class="col-xs-3 centerPseudo rooms-nav-btn" data-room="b" style="height:66px;">
+			<span class="centerPseudo">B Room</span>
+		</div>
+		<div class="col-xs-3 centerPseudo rooms-nav-btn" data-room="c" style="height:66px;">
+			<span class="centerPseudo">C Room</span>
+		</div>
+		<div class="col-xs-3 rooms-nav-btn" data-room="f" style="height:66px;">
+			<span class="centerPseudo" style="margin-top:10px;">Family Room</span>
+		</div>
+	</div>
+
+	<div class="rooms-content-wrapper">
+		<div class="rooms-content room-a active">
+			<h3 class="header nanum-gothic">빌리지 A ROOM</h3>
+			<h4 class="header-sub nanum-gothic">친구들과의 즐거운 파티<br>끊이지 않는 수다</h4>
+			<p class="header-content nanum-gothic">
+				흥미로운 공간을 함께 공유하며,<br>
+				밤 새워 신나게 놀 준비가 되셨다면<br>
+				A 룸을 추천합니다.
+			</p>
+
+			<div id="room_a_swiper" class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)A ROOMS_01_H300.jpg">
+					</div>
+					<div class="swiper-slide">
+						<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)A ROOMS_02_H300.jpg">
+					</div>
+					<div class="swiper-slide">
+						<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)A ROOMS_03_H300.jpg">
+					</div>
+					<div class="swiper-slide">
+						<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)A ROOMS_04_H300.jpg">
+					</div>
+					<div class="swiper-slide">
+						<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)A ROOMS_05_H300.jpg">
+					</div>
+					<div class="swiper-slide">
+						<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)A ROOMS_06_H300.jpg">
+					</div>
+					<div class="swiper-slide">
+						<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)A ROOMS_07_H300.jpg">
+					</div>
+				</div>
+				<div class="swiper-button-next"></div>
+				<div class="swiper-button-prev"></div>
 			</div>
-			<div class="col-xs-4 centerPseudo rooms-nav-btn" data-room="b">
-				<span class="centerPseudo">Room B</span>
+		</div>
+		<div class="rooms-content room-b">
+			<h3 class="header nanum-gothic">빌리지 B ROOM</h3>
+			<h4 class="header-sub nanum-gothic">탁 트인 전망과<br>널찍한 테라스를 자랑하는 B룸</h4>
+			<p class="header-content nanum-gothic">
+				테라스에 앉아 지는 노을을 바라보며,<br>
+				커피를 즐기는 여유를 만끽하길 원하신다면<br>
+				B 룸을 추천합니다.
+			</p>
+
+			<div id="room_b_swiper" class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)B ROOMS_01_H300.jpg">
+					</div>
+					<div class="swiper-slide">
+						<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)B ROOMS_02_H300.jpg">
+					</div>
+					<div class="swiper-slide">
+						<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)B ROOMS_03_H300.jpg">
+					</div>
+					<div class="swiper-slide">
+						<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)B ROOMS_04_H300.jpg">
+					</div>
+					<div class="swiper-slide">
+						<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)B ROOMS_05_H300.jpg">
+					</div>
+					<div class="swiper-slide">
+						<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)B ROOMS_06_H300.jpg">
+					</div>
+					<div class="swiper-slide">
+						<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)B ROOMS_07_H300.jpg">
+					</div>
+					<div class="swiper-slide">
+						<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)B ROOMS_08_H300.jpg">
+					</div>
+				</div>
+				<div class="swiper-button-next"></div>
+				<div class="swiper-button-prev"></div>
 			</div>
-			<div class="col-xs-4 centerPseudo rooms-nav-btn" data-room="c">
-				<span class="centerPseudo">Room C</span>
+		</div>
+		<div class="rooms-content room-c">
+			<h3 class="header nanum-gothic">빌리지 C ROOM</h3>
+			<h4 class="header-sub nanum-gothic">친구들과 가볍게 떠난 여행<br>도란도란 나누는 담소</h4>
+			<p class="header-content nanum-gothic">
+				아늑한 공간을 함께 공유하며,<br>
+				더욱 스스럼 없는 사이로 발전하길 원하신다면<br>
+				C 룸을 추천합니다.
+			</p>
+
+			<div id="room_c_swiper" class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)C ROOMS_01_H300.jpg">
+					</div>
+					<div class="swiper-slide">
+						<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)C ROOMS_02_H300.jpg">
+					</div>
+					<div class="swiper-slide">
+						<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)C ROOMS_03_H300.jpg">
+					</div>
+					<div class="swiper-slide">
+						<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)C ROOMS_04_H300.jpg">
+					</div>
+					<div class="swiper-slide">
+						<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)C ROOMS_05_H300.jpg">
+					</div>
+					<div class="swiper-slide">
+						<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)C ROOMS_06_H300.jpg">
+					</div>
+					<div class="swiper-slide">
+						<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)C ROOMS_07_H300.jpg">
+					</div>
+					<div class="swiper-slide">
+						<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)C ROOMS_08_H300.jpg">
+					</div>
+					<div class="swiper-slide">
+						<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)C ROOMS_09_H300.jpg">
+					</div>
+					<div class="swiper-slide">
+						<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)C ROOMS_10_H300.jpg">
+					</div>
+				</div>
+				<div class="swiper-button-next"></div>
+				<div class="swiper-button-prev"></div>
 			</div>
 		</div>
 
-		<div class="rooms-content-wrapper">
-			<div class="rooms-content room-a active">
-				<h3 class="header nanum-gothic">빌리지 A ROOM</h3>
-				<h4 class="header-sub nanum-gothic">친구들과의 즐거운 파티<br>끊이지 않는 수다</h4>
-				<p class="header-content nanum-gothic">
-					흥미로운 공간을 함께 공유하며,<br>
-					밤 새워 신나게 놀 준비가 되셨다면<br>
-					A 룸을 추천합니다.
-				</p>
+		<div class="rooms-content room-f">
+			<h3 class="header nanum-gothic">빌리지<br>FAMILY ROOM</h3>
+			<h4 class="header-sub nanum-gothic">동강 리버빌_빌리지의<br>최고의 가치를 경험할 수 있는 특별한 공간,<br>패밀리 룸.</h4>
+			<p class="header-content nanum-gothic">
+				조그마한 다락의 창문으로<br>
+				쏟아지는 별들을 만나보길 원하신다면<br>
+				패밀리 룸을 추천합니다.
+			</p>
 
-				<div id="room_a_swiper" class="swiper-container">
-					<div class="swiper-wrapper">
-						<div class="swiper-slide">
-							<img class="room-images" src="/base_1/img/mobile/eaeaea.png">
-						</div>
-						<div class="swiper-slide">
-							
-						</div>
-						<div class="swiper-slide">
-							<img class="room-images" src="/base_1/img/mobile/eaeaea.png">
-						</div>
+			<div id="room_f_swiper" class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)FAMAILY ROOMS_01_H300.jpg">
 					</div>
-					<div class="swiper-button-next"></div>
-					<div class="swiper-button-prev"></div>
-				</div>
-			</div>
-			<div class="rooms-content room-b">
-				<h3 class="header nanum-gothic">빌리지 B ROOM</h3>
-				<h4 class="header-sub nanum-gothic">탁 트인 전망과<br>널찍한 테라스를 자랑하는 B룸</h4>
-				<p class="header-content nanum-gothic">
-					테라스에 앉아 지는 노을을 바라보며,<br>
-					커피를 즐기는 여유를 만끽하길 원하신다면<br>
-					B 룸을 추천합니다.
-				</p>
-
-				<div id="room_b_swiper" class="swiper-container">
-					<div class="swiper-wrapper">
-						<div class="swiper-slide">
-							<img class="room-images" src="/base_1/img/mobile/eaeaea.png">
-						</div>
-						<div class="swiper-slide">
-							
-						</div>
-						<div class="swiper-slide">
-							<img class="room-images" src="/base_1/img/mobile/eaeaea.png">
-						</div>
+					<div class="swiper-slide">
+						<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)FAMAILY ROOMS_02_H300.jpg">
 					</div>
-					<div class="swiper-button-next"></div>
-					<div class="swiper-button-prev"></div>
-				</div>
-			</div>
-			<div class="rooms-content room-c">
-				<h3 class="header nanum-gothic">빌리지 C ROOM</h3>
-				<h4 class="header-sub nanum-gothic">친구들과 가볍게 떠난 여행<br>도란도란 나누는 담소</h4>
-				<p class="header-content nanum-gothic">
-					아늑한 공간을 함께 공유하며,<br>
-					더욱 스스럼 없는 사이로 발전하길 원하신다면<br>
-					C 룸을 추천합니다.
-				</p>
-
-				<div id="room_c_swiper" class="swiper-container">
-					<div class="swiper-wrapper">
-						<div class="swiper-slide">
-							<img class="room-images" src="/base_1/img/mobile/eaeaea.png">
-						</div>
-						<div class="swiper-slide">
-							
-						</div>
-						<div class="swiper-slide">
-							<img class="room-images" src="/base_1/img/mobile/eaeaea.png">
-						</div>
+					<div class="swiper-slide">
+						<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)FAMAILY ROOMS_03_H300.jpg">
 					</div>
-					<div class="swiper-button-next"></div>
-					<div class="swiper-button-prev"></div>
+					<div class="swiper-slide">
+						<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)FAMAILY ROOMS_04_H300.jpg">
+					</div>
+					<div class="swiper-slide">
+						<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)FAMAILY ROOMS_05_H300.jpg">
+					</div>
+					<div class="swiper-slide">
+						<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)FAMAILY ROOMS_06_H300.jpg">
+					</div>
+					<div class="swiper-slide">
+						<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)FAMAILY ROOMS_07_H300.jpg">
+					</div>
+					<div class="swiper-slide">
+						<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)FAMAILY ROOMS_08_H300.jpg">
+					</div>
+					<div class="swiper-slide">
+						<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)FAMAILY ROOMS_09_H300.jpg">
+					</div>
+					<div class="swiper-slide">
+						<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)FAMAILY ROOMS_10_H300.jpg">
+					</div>
+					<div class="swiper-slide">
+						<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)FAMAILY ROOMS_11_H300.jpg">
+					</div>
 				</div>
-			</div>
-
-			<div class="rooms-common-content">
-				<div class="faq-wrapper">
-					<h4 class="faq-header nanum-gothic">ROOMS DETAILS FAQ</h4>
-					<h5 class="faq-header-sub nanum-gothic" data-faq="1">
-						체크인 및 체크아웃 시간이 궁금해요
-						<span class="glyphicon glyphicon-chevron-down"></span>
-					</h5>
-					<p class="faq-content nanum-gothic faq-1 active">
-						체크인은 14:00부터,<br>
-						체크아웃은 11:00까지 입니다.<br>
-						다음 손님 분들의 편의를 위해,<br>
-						퇴실 시간을 꼭 지켜주시길 바랍니다.
-					</p>
-					<h5 class="faq-header-sub nanum-gothic" data-faq="2">
-						 어떤 종류의 가구 및<br>전자제품이 있는지 궁금해요
-						<span class="glyphicon glyphicon-chevron-down"></span>
-					</h5>
-					<p class="faq-content nanum-gothic faq-2">
-						침대, 협탁, TV, 냉장고, 에어컨, 헤어드라이어, 접이식 밥상 등이 준비되어 있습니다.<br>
-						외출 시, 에어컨의 전원은 꺼주시길 바랍니다.
-					</p>
-					<h5 class="faq-header-sub nanum-gothic" data-faq="3">
-						주방 조리 도구는<br>어떤 종류가 있는지 궁금해요
-						<span class="glyphicon glyphicon-chevron-down"></span>
-					</h5>
-					<p class="faq-content nanum-gothic faq-3">
-						인덕션 레인지, 밥솥, 전기주전자, 각종 냄비 및 프라이팬 류, 각종 조리 기구 및 식기류 등이 준비되어 있습니다.<br>
-						퇴실 시, 사용하신 식기류는 정리해주시고<br>
-						객실 쓰레기는 분리 수거 후 지정된 장소에 놓아주시길 바랍니다.
-					</p>
-				</div>
-
-				<div class="info-wrapper">
-					<h4 class="info-header nanum-gothic">ROOM INFO</h4>
-					<center>
-						<h5 class="area-info nanum-gothic">
-							4명 기준 | 33m<sup>2</sup>
-						</h5>
-					</center>
-					<p class="info-content">
-						객실이용에 따른 더 자세한 사항은<br>
-						공지사항을 참고 부탁드리며,<br>
-						기타 궁금한 사항은 아래 연락처로<br>
-						문의 바랍니다.<br><br>
-						입실(CHECK-IN TIME) 14:00<br>
-						퇴실(CHECK-OUT TIME) 11:00<br><br>
-						010-7347-0086<br>
-						010-8796-0086
-					</p>
-				</div>
+				<div class="swiper-button-next"></div>
+				<div class="swiper-button-prev"></div>
 			</div>
 		</div>
 
-		{{$m_village_footer}}
-	</div end>
+		<div class="rooms-common-content">
+			<div class="faq-wrapper">
+				<h4 class="faq-header nanum-gothic">ROOMS DETAILS FAQ</h4>
+				<h5 class="faq-header-sub nanum-gothic" data-faq="1">
+					체크인 및 체크아웃 시간이 궁금해요
+					<span class="glyphicon glyphicon-chevron-down"></span>
+				</h5>
+				<p class="faq-content nanum-gothic faq-1 active">
+					체크인은 14:00부터,<br>
+					체크아웃은 11:00까지 입니다.<br>
+					다음 손님 분들의 편의를 위해,<br>
+					퇴실 시간을 꼭 지켜주시길 바랍니다.
+				</p>
+				<h5 class="faq-header-sub nanum-gothic" data-faq="2">
+					어떤 종류의 가구 및<br>전자제품이 있는지 궁금해요
+					<span class="glyphicon glyphicon-chevron-down"></span>
+				</h5>
+				<p class="faq-content nanum-gothic faq-2">
+					침대, 협탁, TV, 냉장고, 에어컨, 헤어드라이어, 접이식 밥상 등이 준비되어 있습니다.<br>
+					외출 시, 에어컨의 전원은 꺼주시길 바랍니다.
+				</p>
+				<h5 class="faq-header-sub nanum-gothic" data-faq="3">
+					주방 조리 도구는<br>어떤 종류가 있는지 궁금해요
+					<span class="glyphicon glyphicon-chevron-down"></span>
+				</h5>
+				<p class="faq-content nanum-gothic faq-3">
+					인덕션 레인지, 밥솥, 전기주전자, 각종 냄비 및 프라이팬 류, 각종 조리 기구 및 식기류 등이 준비되어 있습니다.<br>
+					퇴실 시, 사용하신 식기류는 정리해주시고<br>
+					객실 쓰레기는 분리 수거 후 지정된 장소에 놓아주시길 바랍니다.
+				</p>
+			</div>
+
+			<div class="info-wrapper">
+				<h4 class="info-header nanum-gothic">ROOM INFO</h4>
+				<center>
+					<h5 class="area-info nanum-gothic">
+						4명 기준 | 33m<sup>2</sup>
+					</h5>
+				</center>
+				<p class="info-content">
+					객실이용에 따른 더 자세한 사항은<br>
+					공지사항을 참고 부탁드리며,<br>
+					기타 궁금한 사항은 아래 연락처로<br>
+					문의 바랍니다.<br><br>
+					입실(CHECK-IN TIME) 14:00<br>
+					퇴실(CHECK-OUT TIME) 11:00<br><br>
+					010-7347-0086<br>
+					010-8796-0086
+				</p>
+			</div>
+		</div>
+	</div>
+
+	{{$m_village_footer}}
+</div end>
 <!--본문 끝-->
 </BODY>
 </HTML>
