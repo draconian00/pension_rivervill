@@ -26,7 +26,7 @@
 
 <script src="http://ec2-13-124-53-161.ap-northeast-2.compute.amazonaws.com/assets/js/isotope.pkgd.min.js"></script>
 <script src="http://ec2-13-124-53-161.ap-northeast-2.compute.amazonaws.com/assets/js/jquery.mousewheel.min.js"></script>
-<title>µ¿°­¸®¹öºô</title>
+<title>ë™ê°•ë¦¬ë²„ë¹Œ</title>
 
 <link rel="stylesheet" type="text/css" href="http://ec2-13-124-53-161.ap-northeast-2.compute.amazonaws.com/assets/mobile/css/common.css">
 <script src="http://ec2-13-124-53-161.ap-northeast-2.compute.amazonaws.com/assets/mobile/js/common.js"></script>
@@ -35,129 +35,222 @@
 </HEAD>
 <BODY topmargin="0" leftmargin="0">
 
-	{{$family_nav_menu}}
-<!--º»¹® ½ÃÀÛ-->
-	<div id="contentsArea">
-		<div class="rooms-nav">
-			<div class="col-xs-6 centerPseudo rooms-nav-btn active" data-room="1">
-				<span class="centerPseudo">1 FLOOR</span>
-			</div>
-			<div class="col-xs-6 centerPseudo rooms-nav-btn" data-room="2">
-				<span class="centerPseudo">2 FLOOR</span>
-			</div>
-		</div>
+{{$family_nav_menu}}
+<!--ë³¸ë¬¸ ì‹œìž‘-->
+<style>
+.rooms-images {
+height: initial !important;
+}
+@media screen and (max-width:320px) {
+.room-images {
+margin-top: 20%;
+}
+}
+@media screen and (min-width:321px) and (max-width:375px) {
+.room-images {
+margin-top: 12%;
+}
+}
+@media screen and (min-width:376px) and (max-width:425px) {
+.room-images {
+margin-top: 7%;
+}
+}
+</style>
 
-		<div class="rooms-content-wrapper">
-			<div class="rooms-content room-1 active">
-				<h3 class="header nanum-gothic">1 FLOOR</h3>
-				<h4 class="header-sub nanum-gothic">¸ðµÎ µÑ·¯ ¾É¾Æµµ ³Ë³ËÇÒ Á¤µµÀÇ<br>³Ê¸¥ Ä§½ÇÀ» ÀÚ¶ûÇÏ´Â 1Ãþ</h4>
-				<p class="header-content nanum-gothic">
-					°¢Á¾ ÆíÀÇ½Ã¼³°ú °¡±î¿î À§Ä¡,<br>
-					4°³ÀÇ ·ë°ú °øµ¿ È­Àå½Ç·Î ÀÌ·ç¾îÁ®<br>
-					´ÜÃ¼ ¿©ÇàÀÇ Áñ°Å¿òÀ» Á¦°øÇÕ´Ï´Ù.
-				</p>
+<div id="contentsArea">
+<div class="rooms-nav">
+<div class="col-xs-6 centerPseudo rooms-nav-btn active" data-room="1">
+<span class="centerPseudo">1 FLOOR</span>
+</div>
+<div class="col-xs-6 centerPseudo rooms-nav-btn" data-room="2">
+<span class="centerPseudo">2 FLOOR</span>
+</div>
+</div>
 
-				<div id="room_1_swiper" class="swiper-container">
-					<div class="swiper-wrapper">
-						<div class="swiper-slide">
-							<img class="room-images" src="/base_1/img/mobile/eaeaea.png">
-						</div>
-						<div class="swiper-slide">
-							
-						</div>
-						<div class="swiper-slide">
-							<img class="room-images" src="/base_1/img/mobile/eaeaea.png">
-						</div>
-					</div>
-					<div class="swiper-button-next"></div>
-					<div class="swiper-button-prev"></div>
-				</div>
-			</div>
-			<div class="rooms-content room-2">
-				<h3 class="header nanum-gothic">2 FLOOR</h3>
-				<h4 class="header-sub nanum-gothic">¾Æ´ÁÇÑ Ä§½Ç°ú ÀÚ¿¬Ã¤±¤ÀÇ ¿Ïº®ÇÑ Á¶È­,<br>Å¹ Æ®ÀÎ Àü¸ÁÀ» ÀÚ¶ûÇÏ´Â 2Ãþ</h4>
-				<p class="header-content nanum-gothic">
-					°³º° È­Àå½ÇÀÌ Æ÷ÇÔµÈ 4°³ÀÇ ·ë,<br>
-					³Ê¸¥ °Å½Ç°ú ÁÖ¹æÀ¸·Î ÀÌ·ç¾îÁ®<br>
-					Æí¾ÈÇÑ ÈÞ½ÄÀ» Á¦°øÇÕ´Ï´Ù.
-				</p>
+<div class="rooms-content-wrapper">
+<div class="rooms-content room-1 active">
+<h3 class="header nanum-gothic">1 FLOOR</h3>
+<center>
+<h5 class="area-info nanum-gothic active" id="room_area_info_1">
+25ëª… ê¸°ì¤€ | 132m<sup>2</sup>
+</h5>
+</center>
+<h4 class="header-sub nanum-gothic">ëª¨ë‘ ë‘˜ëŸ¬ ì•‰ì•„ë„ ë„‰ë„‰í•  ì •ë„ì˜<br>ë„ˆë¥¸ ì¹¨ì‹¤ì„ ìžëž‘í•˜ëŠ” 1ì¸µ</h4>
+<p class="header-content nanum-gothic">
+ê°ì¢… íŽ¸ì˜ì‹œì„¤ê³¼ ê°€ê¹Œìš´ ìœ„ì¹˜,<br>
+4ê°œì˜ ë£¸ê³¼ ê³µë™ í™”ìž¥ì‹¤ë¡œ ì´ë£¨ì–´ì ¸<br>
+ë‹¨ì²´ ì—¬í–‰ì˜ ì¦ê±°ì›€ì„ ì œê³µí•©ë‹ˆë‹¤.
+</p>
 
-				<div id="room_2_swiper" class="swiper-container">
-					<div class="swiper-wrapper">
-						<div class="swiper-slide">
-							<img class="room-images" src="/base_1/img/mobile/eaeaea.png">
-						</div>
-						<div class="swiper-slide">
-							
-						</div>
-						<div class="swiper-slide">
-							<img class="room-images" src="/base_1/img/mobile/eaeaea.png">
-						</div>
-					</div>
-					<div class="swiper-button-next"></div>
-					<div class="swiper-button-prev"></div>
-				</div>
-			</div>
+<div id="room_1_swiper" class="swiper-container">
+<div class="swiper-wrapper">
+<div class="swiper-slide">
+<img class="room-images" src="/base_1/img/mobile/family/rooms/(M)1 FLOOR_01_H300.jpg">
+</div>
+<div class="swiper-slide">
+<img class="room-images" src="/base_1/img/mobile/family/rooms/(M)1 FLOOR_02_H300.jpg">
+</div>
+<div class="swiper-slide">
+<img class="room-images" src="/base_1/img/mobile/family/rooms/(M)1 FLOOR_03_H300.jpg">
+</div>
+<div class="swiper-slide">
+<img class="room-images" src="/base_1/img/mobile/family/rooms/(M)1 FLOOR_04_H300.jpg">
+</div>
+<div class="swiper-slide">
+<img class="room-images" src="/base_1/img/mobile/family/rooms/(M)1 FLOOR_05_H300.jpg">
+</div>
+<div class="swiper-slide">
+<img class="room-images" src="/base_1/img/mobile/family/rooms/(M)1 FLOOR_06_H300.jpg">
+</div>
+<div class="swiper-slide">
+<img class="room-images" src="/base_1/img/mobile/family/rooms/(M)1 FLOOR_07_H300.jpg">
+</div>
+</div>
+<div class="swiper-button-next"></div>
+<div class="swiper-button-prev"></div>
+</div>
 
-			<div class="rooms-common-content">
-				<div class="faq-wrapper">
-					<h4 class="faq-header nanum-gothic">ROOMS DETAILS FAQ</h4>
-					<h5 class="faq-header-sub nanum-gothic" data-faq="1">
-						Ã¼Å©ÀÎ ¹× Ã¼Å©¾Æ¿ô ½Ã°£ÀÌ ±Ã±ÝÇØ¿ä
-						<span class="glyphicon glyphicon-chevron-down"></span>
-					</h5>
-					<p class="faq-content nanum-gothic faq-1 active">
-						Ã¼Å©ÀÎÀº 14:00ºÎÅÍ,<br>
-						Ã¼Å©¾Æ¿ôÀº 11:00±îÁö ÀÔ´Ï´Ù.<br>
-						´ÙÀ½ ¼Õ´Ô ºÐµéÀÇ ÆíÀÇ¸¦ À§ÇØ,<br>
-						Åð½Ç ½Ã°£À» ²À ÁöÄÑÁÖ½Ã±æ ¹Ù¶ø´Ï´Ù.
-					</p>
-					<h5 class="faq-header-sub nanum-gothic" data-faq="2">
-						 ¾î¶² Á¾·ùÀÇ °¡±¸ ¹×<br>ÀüÀÚÁ¦Ç°ÀÌ ÀÖ´ÂÁö ±Ã±ÝÇØ¿ä
-						<span class="glyphicon glyphicon-chevron-down"></span>
-					</h5>
-					<p class="faq-content nanum-gothic faq-2">
-						1Ãþ TV, ÇùÅ¹, ¿¡¾îÄÁ / 2Ãþ TV, ÇùÅ¹, ³ÃÀå°í, ½ÄÅ¹<br>
-						¿ÜÃâ ½Ã, ¿¡¾îÄÁÀÇ Àü¿øÀº ²¨ÁÖ½Ã±æ ¹Ù¶ø´Ï´Ù.
-					</p>
-					<h5 class="faq-header-sub nanum-gothic" data-faq="3">
-						ÁÖ¹æ Á¶¸® µµ±¸´Â<br>¾î¶² Á¾·ù°¡ ÀÖ´ÂÁö ±Ã±ÝÇØ¿ä
-						<span class="glyphicon glyphicon-chevron-down"></span>
-					</h5>
-					<p class="faq-content nanum-gothic faq-3">
-						ÀÎ´ö¼Ç ·¹ÀÎÁö, ¹ä¼Ü, Àü±âÁÖÀüÀÚ, °¢Á¾ ³¿ºñ ¹× ÇÁ¶óÀÌÆÒ ·ù, °¢Á¾ Á¶¸® ±â±¸ ¹× ½Ä±â·ù µîÀÌ ÁØºñµÇ¾î ÀÖ½À´Ï´Ù.<br>
-						(2Ãþ¸¸ ÇØ´çµÇ¸ç, 1ÃþÀº ÁØºñµÇ¾î ÀÖÁö ¾Ê½À´Ï´Ù.)<br>
-						Åð½Ç ½Ã, »ç¿ëÇÏ½Å ½Ä±â·ù´Â Á¤¸®ÇØÁÖ½Ã°í<br>
-						°´½Ç ¾²·¹±â´Â ºÐ¸® ¼ö°Å ÈÄ ÁöÁ¤µÈ Àå¼Ò¿¡ ³õ¾ÆÁÖ½Ã±æ ¹Ù¶ø´Ï´Ù.
-					</p>
-				</div>
+<h4 class="faq-header nanum-gothic" style="margin-bottom:10px;">ROOMS DETAILS VIEW</h4>
+<div style="width:90%;margin:auto;">
+<center>
+<img src="/base_1/img/family/room_common/base_1.jpg" style="width:100%"><br>
+<img src="/base_1/img/family/floor_1/structure.jpg" style="width:100%">
+<p class="nanum-gothic" style="font-size:1.1rem; font-weight:600;">ê°ì‹¤êµ¬ì¡°</p><br>
+</center>
+</div>
+<br>
+</div>
 
-				<div class="info-wrapper">
-					<h4 class="info-header nanum-gothic">ROOM INFO</h4>
-					<center>
-						<h5 class="area-info nanum-gothic active" id="room_area_info_1">
-							25¸í ±âÁØ | 132m<sup>2</sup>
-						</h5>
-						<h5 class="area-info nanum-gothic" id="room_area_info_2">
-							12¸í ±âÁØ | 132m<sup>2</sup>
-						</h5>
-					</center>
-					<p class="info-content">
-						°´½ÇÀÌ¿ë¿¡ µû¸¥ ´õ ÀÚ¼¼ÇÑ »çÇ×Àº<br>
-						°øÁö»çÇ×À» Âü°í ºÎÅ¹µå¸®¸ç,<br>
-						±âÅ¸ ±Ã±ÝÇÑ »çÇ×Àº ¾Æ·¡ ¿¬¶ôÃ³·Î<br>
-						¹®ÀÇ ¹Ù¶ø´Ï´Ù.<br><br>
-						ÀÔ½Ç(CHECK-IN TIME) 14:00<br>
-						Åð½Ç(CHECK-OUT TIME) 11:00<br><br>
-						010-7347-0086<br>
-						010-8796-0086
-					</p>
-				</div>
-			</div>
-		</div>
+<div class="rooms-content room-2">
+<h3 class="header nanum-gothic">2 FLOOR</h3>
+<center>
+<h5 class="area-info nanum-gothic" id="room_area_info_2">
+12ëª… ê¸°ì¤€ | 132m<sup>2</sup>
+</h5>
+</center>
+<h4 class="header-sub nanum-gothic">ì•„ëŠ‘í•œ ì¹¨ì‹¤ê³¼ ìžì—°ì±„ê´‘ì˜ ì™„ë²½í•œ ì¡°í™”,<br>íƒ íŠ¸ì¸ ì „ë§ì„ ìžëž‘í•˜ëŠ” 2ì¸µ</h4>
+<p class="header-content nanum-gothic">
+ê°œë³„ í™”ìž¥ì‹¤ì´ í¬í•¨ëœ 4ê°œì˜ ë£¸,<br>
+ë„ˆë¥¸ ê±°ì‹¤ê³¼ ì£¼ë°©ìœ¼ë¡œ ì´ë£¨ì–´ì ¸<br>
+íŽ¸ì•ˆí•œ íœ´ì‹ì„ ì œê³µí•©ë‹ˆë‹¤.
+</p>
 
-		{{$m_family_footer}}
-	</div end>
-<!--º»¹® ³¡-->
+<div id="room_2_swiper" class="swiper-container">
+<div class="swiper-wrapper">
+<div class="swiper-slide">
+<img class="room-images" src="/base_1/img/mobile/family/rooms/(M)2 FLOOR_01_H300.jpg">
+</div>
+<div class="swiper-slide">
+<img class="room-images" src="/base_1/img/mobile/family/rooms/(M)2 FLOOR_02_H300.jpg">
+</div>
+<div class="swiper-slide">
+<img class="room-images" src="/base_1/img/mobile/family/rooms/(M)2 FLOOR_03_H300.jpg">
+</div>
+<div class="swiper-slide">
+<img class="room-images" src="/base_1/img/mobile/family/rooms/(M)2 FLOOR_04_H300.jpg">
+</div>
+<div class="swiper-slide">
+<img class="room-images" src="/base_1/img/mobile/family/rooms/(M)2 FLOOR_05_H300.jpg">
+</div>
+<div class="swiper-slide">
+<img class="room-images" src="/base_1/img/mobile/family/rooms/(M)2 FLOOR_06_H300.jpg">
+</div>
+<div class="swiper-slide">
+<img class="room-images" src="/base_1/img/mobile/family/rooms/(M)2 FLOOR_07_H300.jpg">
+</div>
+<div class="swiper-slide">
+<img class="room-images" src="/base_1/img/mobile/family/rooms/(M)2 FLOOR_08_H300.jpg">
+</div>
+<div class="swiper-slide">
+<img class="room-images" src="/base_1/img/mobile/family/rooms/(M)2 FLOOR_09_H300.jpg">
+</div>
+<div class="swiper-slide">
+<img class="room-images" src="/base_1/img/mobile/family/rooms/(M)2 FLOOR_10_H300.jpg">
+</div>
+<div class="swiper-slide">
+<img class="room-images" src="/base_1/img/mobile/family/rooms/(M)2 FLOOR_12_H300.jpg">
+</div>
+<div class="swiper-slide">
+<img class="room-images" src="/base_1/img/mobile/family/rooms/(M)2 FLOOR_13_H300.jpg">
+</div>
+<div class="swiper-slide">
+<img class="room-images" src="/base_1/img/mobile/family/rooms/(M)2 FLOOR_14_H300.jpg">
+</div>
+<div class="swiper-slide">
+<img class="room-images" src="/base_1/img/mobile/family/rooms/(M)2 FLOOR_16_H300.jpg">
+</div>
+<div class="swiper-slide">
+<img class="room-images" src="/base_1/img/mobile/family/rooms/(M)2 FLOOR_17_H300.jpg">
+</div>
+<div class="swiper-slide">
+<img class="room-images" src="/base_1/img/mobile/family/rooms/(M)2 FLOOR_18_H300.jpg">
+</div>
+</div>
+<div class="swiper-button-next"></div>
+<div class="swiper-button-prev"></div>
+</div>
+
+<h4 class="faq-header nanum-gothic" style="margin-bottom:10px;">ROOMS DETAILS VIEW</h4>
+<div style="width:90%;margin:auto;">
+<center>
+<img src="/base_1/img/family/room_common/base_2.jpg" style="width:100%"><br>
+<img src="/base_1/img/family/floor_2/structure.jpg" style="width:100%">
+<p class="nanum-gothic" style="font-size:1.1rem; font-weight:600;">ê°ì‹¤êµ¬ì¡°</p><br>
+</center>
+</div>
+<br>
+</div>
+
+<div class="rooms-common-content">
+<div class="faq-wrapper">
+<h4 class="faq-header nanum-gothic">ROOMS DETAILS FAQ</h4>
+<h5 class="faq-header-sub nanum-gothic" data-faq="1">
+ì²´í¬ì¸ ë° ì²´í¬ì•„ì›ƒ ì‹œê°„ì´ ê¶ê¸ˆí•´ìš”
+<span class="glyphicon glyphicon-chevron-down"></span>
+</h5>
+<p class="faq-content nanum-gothic faq-1 active">
+ì²´í¬ì¸ì€ 14:00ë¶€í„°,<br>
+ì²´í¬ì•„ì›ƒì€ 11:00ê¹Œì§€ ìž…ë‹ˆë‹¤.<br>
+ë‹¤ìŒ ì†ë‹˜ ë¶„ë“¤ì˜ íŽ¸ì˜ë¥¼ ìœ„í•´,<br>
+í‡´ì‹¤ ì‹œê°„ì„ ê¼­ ì§€ì¼œì£¼ì‹œê¸¸ ë°”ëžë‹ˆë‹¤.
+</p>
+<h5 class="faq-header-sub nanum-gothic" data-faq="2">
+ì–´ë–¤ ì¢…ë¥˜ì˜ ê°€êµ¬ ë°<br>ì „ìžì œí’ˆì´ ìžˆëŠ”ì§€ ê¶ê¸ˆí•´ìš”
+<span class="glyphicon glyphicon-chevron-down"></span>
+</h5>
+<p class="faq-content nanum-gothic faq-2">
+1ì¸µ TV, í˜‘íƒ, ì—ì–´ì»¨ / 2ì¸µ TV, í˜‘íƒ, ëƒ‰ìž¥ê³ , ì‹íƒ<br>
+ì™¸ì¶œ ì‹œ, ì—ì–´ì»¨ì˜ ì „ì›ì€ êº¼ì£¼ì‹œê¸¸ ë°”ëžë‹ˆë‹¤.
+</p>
+<h5 class="faq-header-sub nanum-gothic" data-faq="3">
+ì£¼ë°© ì¡°ë¦¬ ë„êµ¬ëŠ”<br>ì–´ë–¤ ì¢…ë¥˜ê°€ ìžˆëŠ”ì§€ ê¶ê¸ˆí•´ìš”
+<span class="glyphicon glyphicon-chevron-down"></span>
+</h5>
+<p class="faq-content nanum-gothic faq-3">
+ì¸ë•ì…˜ ë ˆì¸ì§€, ë°¥ì†¥, ì „ê¸°ì£¼ì „ìž, ê°ì¢… ëƒ„ë¹„ ë° í”„ë¼ì´íŒ¬ ë¥˜, ê°ì¢… ì¡°ë¦¬ ê¸°êµ¬ ë° ì‹ê¸°ë¥˜ ë“±ì´ ì¤€ë¹„ë˜ì–´ ìžˆìŠµë‹ˆë‹¤.<br>
+(2ì¸µë§Œ í•´ë‹¹ë˜ë©°, 1ì¸µì€ ì¤€ë¹„ë˜ì–´ ìžˆì§€ ì•ŠìŠµë‹ˆë‹¤.)<br>
+í‡´ì‹¤ ì‹œ, ì‚¬ìš©í•˜ì‹  ì‹ê¸°ë¥˜ëŠ” ì •ë¦¬í•´ì£¼ì‹œê³ <br>
+ê°ì‹¤ ì“°ë ˆê¸°ëŠ” ë¶„ë¦¬ ìˆ˜ê±° í›„ ì§€ì •ëœ ìž¥ì†Œì— ë†“ì•„ì£¼ì‹œê¸¸ ë°”ëžë‹ˆë‹¤.
+</p>
+</div>
+
+<div class="info-wrapper">
+<h4 class="info-header nanum-gothic" style="margin-left:20px">ROOM INFO</h4><br>
+<p class="info-content">
+ê°ì‹¤ì´ìš©ì— ë”°ë¥¸ ë” ìžì„¸í•œ ì‚¬í•­ì€<br>
+ê³µì§€ì‚¬í•­ì„ ì°¸ê³  ë¶€íƒë“œë¦¬ë©°,<br>
+ê¸°íƒ€ ê¶ê¸ˆí•œ ì‚¬í•­ì€ ì•„ëž˜ ì—°ë½ì²˜ë¡œ<br>
+ë¬¸ì˜ ë°”ëžë‹ˆë‹¤.<br><br>
+<span style="font-weight:600;">ìž…ì‹¤(CHECK-IN TIME) 14:00<br>
+í‡´ì‹¤(CHECK-OUT TIME) 11:00<br><br></span>
+</p>
+</div>
+</div>
+</div>
+
+{{$m_family_footer}}
+</div end>
+<!--ë³¸ë¬¸ ë-->
 </BODY>
 </HTML>

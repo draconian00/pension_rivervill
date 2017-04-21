@@ -37,26 +37,17 @@
 <!--본문 시작-->
 <div id="contentsArea">
 <div class="page-header-wrapper">
-<h3 class="page-header nanum-gothic">실시간 예약</h3>
+<h3 class="page-header nanum-gothic">예약 확인</h3>
 </div>
 
-<!--<div class="tab-wrapper">-->
-<!--<div class="col-xs-6 centerPseudo tab-btn active" data-res="1">-->
-<!--<span class="centerPseudo nanum-gothic">예약 안내</span>-->
-<!--</div>-->
-<!--<div class="col-xs-6 centerPseudo tab-btn" data-res="2">-->
-<!--<span class="centerPseudo nanum-gothic">실시간 예약</span>-->
-<!--</div>-->
-<!--</div>-->
-
-<div id="res_1" class="res-content">
+<div id="res_1" class="res-content active">
 <div class="reserve-info-wrapper">
-
+<h4 style="margin-top:20px;margin-bottom:30px;">모바일 예약확인은 전화로 확인할 수 있습니다.</h4>
+<center>
+<a style="padding:10px; background:#F96700; color:white; margin-top:5px; margin-bottom:5px;" onclick="location.href='tel:010-7347-0086'">010-7347-0086 전화하기</a><br><br><br>
+<a style="padding:10px; background:#F96700; color:white; margin-top:5px; margin-bottom:5px;" onclick="location.href='tel:010-8796-0086'">010-8796-0086 전화하기</a>
+</center>
 </div>
-</div>
-
-<div id="res_2" class="res-content active">
-{{$cafe_reservation_online}}
 </div>
 
 {{$m_village_footer}}

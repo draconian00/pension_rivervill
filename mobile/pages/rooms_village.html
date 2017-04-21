@@ -1,288 +1,315 @@
 <!DOCTYPE html>
 <HTML>
 <HEAD>
-	<meta charset="euc-kr">
-	<!--<meta charset="utf-8">-->
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta name="apple-mobile-web-app-capable" content="yes" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
-	<meta name="format-detection" content="telephone=no" />
+<meta charset="euc-kr">
+<!--<meta charset="utf-8">-->
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+<meta name="format-detection" content="telephone=no" />
 
-	<!--<link rel="shortcut icon" href="favicon.ico"/>-->
-	<!--<link href="http://ec2-13-124-53-161.ap-northeast-2.compute.amazonaws.com/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" crossorigin="anonymous"/>-->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<link href="http://ec2-13-124-53-161.ap-northeast-2.compute.amazonaws.com/assets/css/jquery-ui.structure.min.css" rel="stylesheet" type="text/css"/>
-	<link href="http://ec2-13-124-53-161.ap-northeast-2.compute.amazonaws.com/assets/css/jquery-ui.min.css" rel="stylesheet" type="text/css"/>
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-	<link href="http://ec2-13-124-53-161.ap-northeast-2.compute.amazonaws.com/assets/css/style.css" rel="stylesheet" type="text/css"/>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.0/css/swiper.min.css">
+<!--<link rel="shortcut icon" href="favicon.ico"/>-->
+<!--<link href="http://ec2-13-124-53-161.ap-northeast-2.compute.amazonaws.com/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" crossorigin="anonymous"/>-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link href="http://ec2-13-124-53-161.ap-northeast-2.compute.amazonaws.com/assets/css/jquery-ui.structure.min.css" rel="stylesheet" type="text/css"/>
+<link href="http://ec2-13-124-53-161.ap-northeast-2.compute.amazonaws.com/assets/css/jquery-ui.min.css" rel="stylesheet" type="text/css"/>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<link href="http://ec2-13-124-53-161.ap-northeast-2.compute.amazonaws.com/assets/css/style.css" rel="stylesheet" type="text/css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.0/css/swiper.min.css">
 
-	<script src="http://ec2-13-124-53-161.ap-northeast-2.compute.amazonaws.com/assets/js/jquery-2.1.4.min.js"></script>
-	<script src="http://ec2-13-124-53-161.ap-northeast-2.compute.amazonaws.com/assets/js/bootstrap.min.js"></script>
-	<script src="http://ec2-13-124-53-161.ap-northeast-2.compute.amazonaws.com/assets/js/jquery-ui.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.0/js/swiper.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.0/js/swiper.jquery.min.js"></script>
-	<script src="http://ec2-13-124-53-161.ap-northeast-2.compute.amazonaws.com/assets/js/jquery.viewportchecker.min.js"></script>
+<script src="http://ec2-13-124-53-161.ap-northeast-2.compute.amazonaws.com/assets/js/jquery-2.1.4.min.js"></script>
+<script src="http://ec2-13-124-53-161.ap-northeast-2.compute.amazonaws.com/assets/js/bootstrap.min.js"></script>
+<script src="http://ec2-13-124-53-161.ap-northeast-2.compute.amazonaws.com/assets/js/jquery-ui.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.0/js/swiper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.0/js/swiper.jquery.min.js"></script>
+<script src="http://ec2-13-124-53-161.ap-northeast-2.compute.amazonaws.com/assets/js/jquery.viewportchecker.min.js"></script>
 
-	<script src="http://ec2-13-124-53-161.ap-northeast-2.compute.amazonaws.com/assets/js/isotope.pkgd.min.js"></script>
-	<script src="http://ec2-13-124-53-161.ap-northeast-2.compute.amazonaws.com/assets/js/jquery.mousewheel.min.js"></script>
-	<title>µ¿°­¸®¹öºô</title>
+<script src="http://ec2-13-124-53-161.ap-northeast-2.compute.amazonaws.com/assets/js/isotope.pkgd.min.js"></script>
+<script src="http://ec2-13-124-53-161.ap-northeast-2.compute.amazonaws.com/assets/js/jquery.mousewheel.min.js"></script>
+<title>ë™ê°•ë¦¬ë²„ë¹Œ</title>
 
-	<link rel="stylesheet" type="text/css" href="http://ec2-13-124-53-161.ap-northeast-2.compute.amazonaws.com/assets/mobile/css/common.css">
-	<script src="http://ec2-13-124-53-161.ap-northeast-2.compute.amazonaws.com/assets/mobile/js/common.js"></script>
-	<link rel="stylesheet" type="text/css" href="http://ec2-13-124-53-161.ap-northeast-2.compute.amazonaws.com/assets/mobile/css/rooms_village.css">
-	<script src="http://ec2-13-124-53-161.ap-northeast-2.compute.amazonaws.com/assets/mobile/js/rooms_village.js"></script>
+<link rel="stylesheet" type="text/css" href="http://ec2-13-124-53-161.ap-northeast-2.compute.amazonaws.com/assets/mobile/css/common.css">
+<script src="http://ec2-13-124-53-161.ap-northeast-2.compute.amazonaws.com/assets/mobile/js/common.js"></script>
+<link rel="stylesheet" type="text/css" href="http://ec2-13-124-53-161.ap-northeast-2.compute.amazonaws.com/assets/mobile/css/rooms_village.css">
+<script src="http://ec2-13-124-53-161.ap-northeast-2.compute.amazonaws.com/assets/mobile/js/rooms_village.js"></script>
 </HEAD>
 <BODY topmargin="0" leftmargin="0">
 
 {{$nav_menu}}
-<!--º»¹® ½ÃÀÛ-->
+<!--ë³¸ë¬¸ ì‹œìž‘-->
+
+<style>
+.rooms-images {
+height: initial !important;
+}
+@media screen and (max-width:320px) {
+.room-images {
+margin-top: 20%;
+}
+}
+@media screen and (min-width:321px) and (max-width:375px) {
+.room-images {
+margin-top: 12%;
+}
+}
+@media screen and (min-width:376px) and (max-width:425px) {
+.room-images {
+margin-top: 7%;
+}
+}
+</style>
+
 <div id="contentsArea" style="margin-top:120px;">
-	<div class="rooms-nav" style="height:66px;">
-		<div class="col-xs-3 centerPseudo rooms-nav-btn active" data-room="a" style="height:66px;">
-			<span class="centerPseudo">A Room</span>
-		</div>
-		<div class="col-xs-3 centerPseudo rooms-nav-btn" data-room="b" style="height:66px;">
-			<span class="centerPseudo">B Room</span>
-		</div>
-		<div class="col-xs-3 centerPseudo rooms-nav-btn" data-room="c" style="height:66px;">
-			<span class="centerPseudo">C Room</span>
-		</div>
-		<div class="col-xs-3 rooms-nav-btn" data-room="f" style="height:66px;">
-			<span class="centerPseudo" style="margin-top:10px;">Family Room</span>
-		</div>
-	</div>
+<div class="rooms-nav" style="height:66px;">
+<div class="col-xs-4 centerPseudo rooms-nav-btn active" data-room="a" style="height:66px;">
+<span class="centerPseudo">A Room</span>
+</div>
+<div class="col-xs-4 centerPseudo rooms-nav-btn" data-room="b" style="height:66px;">
+<span class="centerPseudo">B Room</span>
+</div>
+<div class="col-xs-4 centerPseudo rooms-nav-btn" data-room="c" style="height:66px;">
+<span class="centerPseudo">C Room</span>
+</div>
+</div>
 
-	<div class="rooms-content-wrapper">
-		<div class="rooms-content room-a active">
-			<h3 class="header nanum-gothic">ºô¸®Áö A ROOM</h3>
-			<h4 class="header-sub nanum-gothic">Ä£±¸µé°úÀÇ Áñ°Å¿î ÆÄÆ¼<br>²÷ÀÌÁö ¾Ê´Â ¼ö´Ù</h4>
-			<p class="header-content nanum-gothic">
-				Èï¹Ì·Î¿î °ø°£À» ÇÔ²² °øÀ¯ÇÏ¸ç,<br>
-				¹ã »õ¿ö ½Å³ª°Ô ³î ÁØºñ°¡ µÇ¼Ì´Ù¸é<br>
-				A ·ëÀ» ÃßÃµÇÕ´Ï´Ù.
-			</p>
+<div class="rooms-content-wrapper">
+<div class="rooms-content room-a active">
+<h3 class="header nanum-gothic">ë¹Œë¦¬ì§€ A ROOM</h3>
+<center>
+<h5 class="area-info nanum-gothic">
+4ëª… ê¸°ì¤€ | 33m<sup>2</sup>
+</h5>
+</center>
+<h4 class="header-sub nanum-gothic">ì¹œêµ¬ë“¤ê³¼ì˜ ì¦ê±°ìš´ íŒŒí‹°<br>ëŠì´ì§€ ì•ŠëŠ” ìˆ˜ë‹¤</h4>
+<p class="header-content nanum-gothic">
+í¥ë¯¸ë¡œìš´ ê³µê°„ì„ í•¨ê»˜ ê³µìœ í•˜ë©°,<br>
+ë°¤ ìƒˆì›Œ ì‹ ë‚˜ê²Œ ë†€ ì¤€ë¹„ê°€ ë˜ì…¨ë‹¤ë©´<br>
+A ë£¸ì„ ì¶”ì²œí•©ë‹ˆë‹¤.
+</p>
 
-			<div id="room_a_swiper" class="swiper-container">
-				<div class="swiper-wrapper">
-					<div class="swiper-slide">
-						<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)A ROOMS_01_H300.jpg">
-					</div>
-					<div class="swiper-slide">
-						<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)A ROOMS_02_H300.jpg">
-					</div>
-					<div class="swiper-slide">
-						<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)A ROOMS_03_H300.jpg">
-					</div>
-					<div class="swiper-slide">
-						<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)A ROOMS_04_H300.jpg">
-					</div>
-					<div class="swiper-slide">
-						<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)A ROOMS_05_H300.jpg">
-					</div>
-					<div class="swiper-slide">
-						<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)A ROOMS_06_H300.jpg">
-					</div>
-					<div class="swiper-slide">
-						<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)A ROOMS_07_H300.jpg">
-					</div>
-				</div>
-				<div class="swiper-button-next"></div>
-				<div class="swiper-button-prev"></div>
-			</div>
-		</div>
-		<div class="rooms-content room-b">
-			<h3 class="header nanum-gothic">ºô¸®Áö B ROOM</h3>
-			<h4 class="header-sub nanum-gothic">Å¹ Æ®ÀÎ Àü¸Á°ú<br>³ÎÂïÇÑ Å×¶ó½º¸¦ ÀÚ¶ûÇÏ´Â B·ë</h4>
-			<p class="header-content nanum-gothic">
-				Å×¶ó½º¿¡ ¾É¾Æ Áö´Â ³ëÀ»À» ¹Ù¶óº¸¸ç,<br>
-				Ä¿ÇÇ¸¦ Áñ±â´Â ¿©À¯¸¦ ¸¸³£ÇÏ±æ ¿øÇÏ½Å´Ù¸é<br>
-				B ·ëÀ» ÃßÃµÇÕ´Ï´Ù.
-			</p>
+<div id="room_a_swiper" class="swiper-container">
+<div class="swiper-wrapper">
+<div class="swiper-slide">
+<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)A ROOMS_01_H300.jpg">
+</div>
+<div class="swiper-slide">
+<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)A ROOMS_02_H300.jpg">
+</div>
+<div class="swiper-slide">
+<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)A ROOMS_03_H300.jpg">
+</div>
+<div class="swiper-slide">
+<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)A ROOMS_04_H300.jpg">
+</div>
+<div class="swiper-slide">
+<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)A ROOMS_05_H300.jpg">
+</div>
+<div class="swiper-slide">
+<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)A ROOMS_06_H300.jpg">
+</div>
+<div class="swiper-slide">
+<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)A ROOMS_07_H300.jpg">
+</div>
+</div>
+<div class="swiper-button-next"></div>
+<div class="swiper-button-prev"></div>
+</div>
 
-			<div id="room_b_swiper" class="swiper-container">
-				<div class="swiper-wrapper">
-					<div class="swiper-slide">
-						<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)B ROOMS_01_H300.jpg">
-					</div>
-					<div class="swiper-slide">
-						<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)B ROOMS_02_H300.jpg">
-					</div>
-					<div class="swiper-slide">
-						<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)B ROOMS_03_H300.jpg">
-					</div>
-					<div class="swiper-slide">
-						<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)B ROOMS_04_H300.jpg">
-					</div>
-					<div class="swiper-slide">
-						<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)B ROOMS_05_H300.jpg">
-					</div>
-					<div class="swiper-slide">
-						<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)B ROOMS_06_H300.jpg">
-					</div>
-					<div class="swiper-slide">
-						<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)B ROOMS_07_H300.jpg">
-					</div>
-					<div class="swiper-slide">
-						<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)B ROOMS_08_H300.jpg">
-					</div>
-				</div>
-				<div class="swiper-button-next"></div>
-				<div class="swiper-button-prev"></div>
-			</div>
-		</div>
-		<div class="rooms-content room-c">
-			<h3 class="header nanum-gothic">ºô¸®Áö C ROOM</h3>
-			<h4 class="header-sub nanum-gothic">Ä£±¸µé°ú °¡º±°Ô ¶°³­ ¿©Çà<br>µµ¶õµµ¶õ ³ª´©´Â ´ã¼Ò</h4>
-			<p class="header-content nanum-gothic">
-				¾Æ´ÁÇÑ °ø°£À» ÇÔ²² °øÀ¯ÇÏ¸ç,<br>
-				´õ¿í ½º½º·³ ¾ø´Â »çÀÌ·Î ¹ßÀüÇÏ±æ ¿øÇÏ½Å´Ù¸é<br>
-				C ·ëÀ» ÃßÃµÇÕ´Ï´Ù.
-			</p>
+<h4 class="faq-header nanum-gothic" style="margin-bottom:10px;">ROOMS DETAILS VIEW</h4>
+<div style="width:90%;margin:auto;">
+<center>
+<img src="/base_1/img/rooms/common/a_1.jpg" style="width:100%"><br>
+<img src="/base_1/img/rooms/common/a_2.jpg" style="width:100%">
+<p class="nanum-gothic" style="font-size:1.1rem; font-weight:600;">ê°ì‹¤êµ¬ì¡°</p><br>
+<img src="/base_1/img/rooms/common/img3.jpg" style="width:100%">
+<p class="nanum-gothic" style="font-size:1.1rem; font-weight:600;">ë‹¤ì–‘í•œ ì·¨ì‚¬ë„êµ¬</p><br>
+<img src="/base_1/img/rooms/common/img4.jpg" style="width:100%">
+<p class="nanum-gothic" style="font-size:1.1rem; font-weight:600;">íŽ¸ë¦¬í•œ ìƒí™œë„êµ¬</p><br>
+<img src="/base_1/img/rooms/common/img5.jpg" style="width:100%">
+<p class="nanum-gothic" style="font-size:1.1rem; font-weight:600;">ëŸ­ì…”ë¦¬í•œ ìš•ì‹¤</p><br>
+</center>
+</div>
+<br>
+</div>
 
-			<div id="room_c_swiper" class="swiper-container">
-				<div class="swiper-wrapper">
-					<div class="swiper-slide">
-						<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)C ROOMS_01_H300.jpg">
-					</div>
-					<div class="swiper-slide">
-						<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)C ROOMS_02_H300.jpg">
-					</div>
-					<div class="swiper-slide">
-						<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)C ROOMS_03_H300.jpg">
-					</div>
-					<div class="swiper-slide">
-						<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)C ROOMS_04_H300.jpg">
-					</div>
-					<div class="swiper-slide">
-						<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)C ROOMS_05_H300.jpg">
-					</div>
-					<div class="swiper-slide">
-						<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)C ROOMS_06_H300.jpg">
-					</div>
-					<div class="swiper-slide">
-						<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)C ROOMS_07_H300.jpg">
-					</div>
-					<div class="swiper-slide">
-						<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)C ROOMS_08_H300.jpg">
-					</div>
-					<div class="swiper-slide">
-						<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)C ROOMS_09_H300.jpg">
-					</div>
-					<div class="swiper-slide">
-						<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)C ROOMS_10_H300.jpg">
-					</div>
-				</div>
-				<div class="swiper-button-next"></div>
-				<div class="swiper-button-prev"></div>
-			</div>
-		</div>
+<div class="rooms-content room-b">
+<h3 class="header nanum-gothic">ë¹Œë¦¬ì§€ B ROOM</h3>
+<center>
+<h5 class="area-info nanum-gothic">
+4ëª… ê¸°ì¤€ | 33m<sup>2</sup>
+</h5>
+</center>
+<h4 class="header-sub nanum-gothic">íƒ íŠ¸ì¸ ì „ë§ê³¼<br>ë„ì°í•œ í…Œë¼ìŠ¤ë¥¼ ìžëž‘í•˜ëŠ” Bë£¸</h4>
+<p class="header-content nanum-gothic">
+í…Œë¼ìŠ¤ì— ì•‰ì•„ ì§€ëŠ” ë…¸ì„ì„ ë°”ë¼ë³´ë©°,<br>
+ì»¤í”¼ë¥¼ ì¦ê¸°ëŠ” ì—¬ìœ ë¥¼ ë§Œë½í•˜ê¸¸ ì›í•˜ì‹ ë‹¤ë©´<br>
+B ë£¸ì„ ì¶”ì²œí•©ë‹ˆë‹¤.
+</p>
 
-		<div class="rooms-content room-f">
-			<h3 class="header nanum-gothic">ºô¸®Áö<br>FAMILY ROOM</h3>
-			<h4 class="header-sub nanum-gothic">µ¿°­ ¸®¹öºô_ºô¸®ÁöÀÇ<br>ÃÖ°íÀÇ °¡Ä¡¸¦ °æÇèÇÒ ¼ö ÀÖ´Â Æ¯º°ÇÑ °ø°£,<br>ÆÐ¹Ð¸® ·ë.</h4>
-			<p class="header-content nanum-gothic">
-				Á¶±×¸¶ÇÑ ´Ù¶ôÀÇ Ã¢¹®À¸·Î<br>
-				½ñ¾ÆÁö´Â º°µéÀ» ¸¸³ªº¸±æ ¿øÇÏ½Å´Ù¸é<br>
-				ÆÐ¹Ð¸® ·ëÀ» ÃßÃµÇÕ´Ï´Ù.
-			</p>
+<div id="room_b_swiper" class="swiper-container">
+<div class="swiper-wrapper">
+<div class="swiper-slide">
+<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)B ROOMS_01_H300.jpg">
+</div>
+<div class="swiper-slide">
+<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)B ROOMS_02_H300.jpg">
+</div>
+<div class="swiper-slide">
+<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)B ROOMS_03_H300.jpg">
+</div>
+<div class="swiper-slide">
+<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)B ROOMS_04_H300.jpg">
+</div>
+<div class="swiper-slide">
+<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)B ROOMS_05_H300.jpg">
+</div>
+<div class="swiper-slide">
+<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)B ROOMS_06_H300.jpg">
+</div>
+<div class="swiper-slide">
+<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)B ROOMS_07_H300.jpg">
+</div>
+<div class="swiper-slide">
+<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)B ROOMS_08_H300.jpg">
+</div>
+</div>
+<div class="swiper-button-next"></div>
+<div class="swiper-button-prev"></div>
+</div>
 
-			<div id="room_f_swiper" class="swiper-container">
-				<div class="swiper-wrapper">
-					<div class="swiper-slide">
-						<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)FAMAILY ROOMS_01_H300.jpg">
-					</div>
-					<div class="swiper-slide">
-						<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)FAMAILY ROOMS_02_H300.jpg">
-					</div>
-					<div class="swiper-slide">
-						<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)FAMAILY ROOMS_03_H300.jpg">
-					</div>
-					<div class="swiper-slide">
-						<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)FAMAILY ROOMS_04_H300.jpg">
-					</div>
-					<div class="swiper-slide">
-						<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)FAMAILY ROOMS_05_H300.jpg">
-					</div>
-					<div class="swiper-slide">
-						<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)FAMAILY ROOMS_06_H300.jpg">
-					</div>
-					<div class="swiper-slide">
-						<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)FAMAILY ROOMS_07_H300.jpg">
-					</div>
-					<div class="swiper-slide">
-						<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)FAMAILY ROOMS_08_H300.jpg">
-					</div>
-					<div class="swiper-slide">
-						<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)FAMAILY ROOMS_09_H300.jpg">
-					</div>
-					<div class="swiper-slide">
-						<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)FAMAILY ROOMS_10_H300.jpg">
-					</div>
-					<div class="swiper-slide">
-						<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)FAMAILY ROOMS_11_H300.jpg">
-					</div>
-				</div>
-				<div class="swiper-button-next"></div>
-				<div class="swiper-button-prev"></div>
-			</div>
-		</div>
+<h4 class="faq-header nanum-gothic" style="margin-bottom:10px;">ROOMS DETAILS VIEW</h4>
+<div style="width:90%;margin:auto;">
+<center>
+<img src="/base_1/img/rooms/common/b_1.jpg" style="width:100%"><br>
+<img src="/base_1/img/rooms/common/b_2.jpg" style="width:100%">
+<p class="nanum-gothic" style="font-size:1.1rem; font-weight:600;">ê°ì‹¤êµ¬ì¡°</p><br>
+<img src="/base_1/img/rooms/common/img3.jpg" style="width:100%">
+<p class="nanum-gothic" style="font-size:1.1rem; font-weight:600;">ë‹¤ì–‘í•œ ì·¨ì‚¬ë„êµ¬</p><br>
+<img src="/base_1/img/rooms/common/img4.jpg" style="width:100%">
+<p class="nanum-gothic" style="font-size:1.1rem; font-weight:600;">íŽ¸ë¦¬í•œ ìƒí™œë„êµ¬</p><br>
+<img src="/base_1/img/rooms/common/img5.jpg" style="width:100%">
+<p class="nanum-gothic" style="font-size:1.1rem; font-weight:600;">ëŸ­ì…”ë¦¬í•œ ìš•ì‹¤</p><br>
+</center>
+</div>
+<br>
+</div>
 
-		<div class="rooms-common-content">
-			<div class="faq-wrapper">
-				<h4 class="faq-header nanum-gothic">ROOMS DETAILS FAQ</h4>
-				<h5 class="faq-header-sub nanum-gothic" data-faq="1">
-					Ã¼Å©ÀÎ ¹× Ã¼Å©¾Æ¿ô ½Ã°£ÀÌ ±Ã±ÝÇØ¿ä
-					<span class="glyphicon glyphicon-chevron-down"></span>
-				</h5>
-				<p class="faq-content nanum-gothic faq-1 active">
-					Ã¼Å©ÀÎÀº 14:00ºÎÅÍ,<br>
-					Ã¼Å©¾Æ¿ôÀº 11:00±îÁö ÀÔ´Ï´Ù.<br>
-					´ÙÀ½ ¼Õ´Ô ºÐµéÀÇ ÆíÀÇ¸¦ À§ÇØ,<br>
-					Åð½Ç ½Ã°£À» ²À ÁöÄÑÁÖ½Ã±æ ¹Ù¶ø´Ï´Ù.
-				</p>
-				<h5 class="faq-header-sub nanum-gothic" data-faq="2">
-					¾î¶² Á¾·ùÀÇ °¡±¸ ¹×<br>ÀüÀÚÁ¦Ç°ÀÌ ÀÖ´ÂÁö ±Ã±ÝÇØ¿ä
-					<span class="glyphicon glyphicon-chevron-down"></span>
-				</h5>
-				<p class="faq-content nanum-gothic faq-2">
-					Ä§´ë, ÇùÅ¹, TV, ³ÃÀå°í, ¿¡¾îÄÁ, Çì¾îµå¶óÀÌ¾î, Á¢ÀÌ½Ä ¹ä»ó µîÀÌ ÁØºñµÇ¾î ÀÖ½À´Ï´Ù.<br>
-					¿ÜÃâ ½Ã, ¿¡¾îÄÁÀÇ Àü¿øÀº ²¨ÁÖ½Ã±æ ¹Ù¶ø´Ï´Ù.
-				</p>
-				<h5 class="faq-header-sub nanum-gothic" data-faq="3">
-					ÁÖ¹æ Á¶¸® µµ±¸´Â<br>¾î¶² Á¾·ù°¡ ÀÖ´ÂÁö ±Ã±ÝÇØ¿ä
-					<span class="glyphicon glyphicon-chevron-down"></span>
-				</h5>
-				<p class="faq-content nanum-gothic faq-3">
-					ÀÎ´ö¼Ç ·¹ÀÎÁö, ¹ä¼Ü, Àü±âÁÖÀüÀÚ, °¢Á¾ ³¿ºñ ¹× ÇÁ¶óÀÌÆÒ ·ù, °¢Á¾ Á¶¸® ±â±¸ ¹× ½Ä±â·ù µîÀÌ ÁØºñµÇ¾î ÀÖ½À´Ï´Ù.<br>
-					Åð½Ç ½Ã, »ç¿ëÇÏ½Å ½Ä±â·ù´Â Á¤¸®ÇØÁÖ½Ã°í<br>
-					°´½Ç ¾²·¹±â´Â ºÐ¸® ¼ö°Å ÈÄ ÁöÁ¤µÈ Àå¼Ò¿¡ ³õ¾ÆÁÖ½Ã±æ ¹Ù¶ø´Ï´Ù.
-				</p>
-			</div>
+<div class="rooms-content room-c">
+<h3 class="header nanum-gothic">ë¹Œë¦¬ì§€ C ROOM</h3>
+<center>
+<h5 class="area-info nanum-gothic">
+4ëª… ê¸°ì¤€ | 33m<sup>2</sup>
+</h5>
+</center>
+<h4 class="header-sub nanum-gothic">ì¹œêµ¬ë“¤ê³¼ ê°€ë³ê²Œ ë– ë‚œ ì—¬í–‰<br>ë„ëž€ë„ëž€ ë‚˜ëˆ„ëŠ” ë‹´ì†Œ</h4>
+<p class="header-content nanum-gothic">
+ì•„ëŠ‘í•œ ê³µê°„ì„ í•¨ê»˜ ê³µìœ í•˜ë©°,<br>
+ë”ìš± ìŠ¤ìŠ¤ëŸ¼ ì—†ëŠ” ì‚¬ì´ë¡œ ë°œì „í•˜ê¸¸ ì›í•˜ì‹ ë‹¤ë©´<br>
+C ë£¸ì„ ì¶”ì²œí•©ë‹ˆë‹¤.
+</p>
 
-			<div class="info-wrapper">
-				<h4 class="info-header nanum-gothic">ROOM INFO</h4>
-				<center>
-					<h5 class="area-info nanum-gothic">
-						4¸í ±âÁØ | 33m<sup>2</sup>
-					</h5>
-				</center>
-				<p class="info-content">
-					°´½ÇÀÌ¿ë¿¡ µû¸¥ ´õ ÀÚ¼¼ÇÑ »çÇ×Àº<br>
-					°øÁö»çÇ×À» Âü°í ºÎÅ¹µå¸®¸ç,<br>
-					±âÅ¸ ±Ã±ÝÇÑ »çÇ×Àº ¾Æ·¡ ¿¬¶ôÃ³·Î<br>
-					¹®ÀÇ ¹Ù¶ø´Ï´Ù.<br><br>
-					ÀÔ½Ç(CHECK-IN TIME) 14:00<br>
-					Åð½Ç(CHECK-OUT TIME) 11:00<br><br>
-					010-7347-0086<br>
-					010-8796-0086
-				</p>
-			</div>
-		</div>
-	</div>
+<div id="room_c_swiper" class="swiper-container">
+<div class="swiper-wrapper">
+<div class="swiper-slide">
+<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)C ROOMS_01_H300.jpg">
+</div>
+<div class="swiper-slide">
+<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)C ROOMS_02_H300.jpg">
+</div>
+<div class="swiper-slide">
+<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)C ROOMS_03_H300.jpg">
+</div>
+<div class="swiper-slide">
+<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)C ROOMS_04_H300.jpg">
+</div>
+<div class="swiper-slide">
+<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)C ROOMS_05_H300.jpg">
+</div>
+<div class="swiper-slide">
+<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)C ROOMS_06_H300.jpg">
+</div>
+<div class="swiper-slide">
+<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)C ROOMS_07_H300.jpg">
+</div>
+<div class="swiper-slide">
+<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)C ROOMS_08_H300.jpg">
+</div>
+<div class="swiper-slide">
+<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)C ROOMS_09_H300.jpg">
+</div>
+<div class="swiper-slide">
+<img class="room-images" src="/base_1/img/mobile/village/rooms/(M)C ROOMS_10_H300.jpg">
+</div>
+</div>
+<div class="swiper-button-next"></div>
+<div class="swiper-button-prev"></div>
+</div>
 
-	{{$m_village_footer}}
+<h4 class="faq-header nanum-gothic" style="margin-bottom:10px;">ROOMS DETAILS VIEW</h4>
+<div style="width:90%;margin:auto;">
+<center>
+<img src="/base_1/img/rooms/common/c_1.jpg" style="width:100%"><br>
+<img src="/base_1/img/rooms/common/c_2.jpg" style="width:100%">
+<p class="nanum-gothic" style="font-size:1.1rem; font-weight:600;">ê°ì‹¤êµ¬ì¡°</p><br>
+<img src="/base_1/img/rooms/common/img3.jpg" style="width:100%">
+<p class="nanum-gothic" style="font-size:1.1rem; font-weight:600;">ë‹¤ì–‘í•œ ì·¨ì‚¬ë„êµ¬</p><br>
+<img src="/base_1/img/rooms/common/img4.jpg" style="width:100%">
+<p class="nanum-gothic" style="font-size:1.1rem; font-weight:600;">íŽ¸ë¦¬í•œ ìƒí™œë„êµ¬</p><br>
+<img src="/base_1/img/rooms/common/img5.jpg" style="width:100%">
+<p class="nanum-gothic" style="font-size:1.1rem; font-weight:600;">ëŸ­ì…”ë¦¬í•œ ìš•ì‹¤</p><br>
+</center>
+</div>
+<br>
+</div>
+
+<div class="rooms-common-content">
+<div class="faq-wrapper">
+<h4 class="faq-header nanum-gothic">ROOMS DETAILS FAQ</h4>
+<h5 class="faq-header-sub nanum-gothic" data-faq="1">
+ì²´í¬ì¸ ë° ì²´í¬ì•„ì›ƒ ì‹œê°„ì´ ê¶ê¸ˆí•´ìš”
+<span class="glyphicon glyphicon-chevron-down"></span>
+</h5>
+<p class="faq-content nanum-gothic faq-1 active">
+ì²´í¬ì¸ì€ 14:00ë¶€í„°,<br>
+ì²´í¬ì•„ì›ƒì€ 11:00ê¹Œì§€ ìž…ë‹ˆë‹¤.<br>
+ë‹¤ìŒ ì†ë‹˜ ë¶„ë“¤ì˜ íŽ¸ì˜ë¥¼ ìœ„í•´,<br>
+í‡´ì‹¤ ì‹œê°„ì„ ê¼­ ì§€ì¼œì£¼ì‹œê¸¸ ë°”ëžë‹ˆë‹¤.
+</p>
+<h5 class="faq-header-sub nanum-gothic" data-faq="2">
+ì–´ë–¤ ì¢…ë¥˜ì˜ ê°€êµ¬ ë°<br>ì „ìžì œí’ˆì´ ìžˆëŠ”ì§€ ê¶ê¸ˆí•´ìš”
+<span class="glyphicon glyphicon-chevron-down"></span>
+</h5>
+<p class="faq-content nanum-gothic faq-2">
+ì¹¨ëŒ€, í˜‘íƒ, TV, ëƒ‰ìž¥ê³ , ì—ì–´ì»¨, í—¤ì–´ë“œë¼ì´ì–´, ì ‘ì´ì‹ ë°¥ìƒ ë“±ì´ ì¤€ë¹„ë˜ì–´ ìžˆìŠµë‹ˆë‹¤.<br>
+ì™¸ì¶œ ì‹œ, ì—ì–´ì»¨ì˜ ì „ì›ì€ êº¼ì£¼ì‹œê¸¸ ë°”ëžë‹ˆë‹¤.
+</p>
+<h5 class="faq-header-sub nanum-gothic" data-faq="3">
+ì£¼ë°© ì¡°ë¦¬ ë„êµ¬ëŠ”<br>ì–´ë–¤ ì¢…ë¥˜ê°€ ìžˆëŠ”ì§€ ê¶ê¸ˆí•´ìš”
+<span class="glyphicon glyphicon-chevron-down"></span>
+</h5>
+<p class="faq-content nanum-gothic faq-3">
+ì¸ë•ì…˜ ë ˆì¸ì§€, ë°¥ì†¥, ì „ê¸°ì£¼ì „ìž, ê°ì¢… ëƒ„ë¹„ ë° í”„ë¼ì´íŒ¬ ë¥˜, ê°ì¢… ì¡°ë¦¬ ê¸°êµ¬ ë° ì‹ê¸°ë¥˜ ë“±ì´ ì¤€ë¹„ë˜ì–´ ìžˆìŠµë‹ˆë‹¤.<br>
+í‡´ì‹¤ ì‹œ, ì‚¬ìš©í•˜ì‹  ì‹ê¸°ë¥˜ëŠ” ì •ë¦¬í•´ì£¼ì‹œê³ <br>
+ê°ì‹¤ ì“°ë ˆê¸°ëŠ” ë¶„ë¦¬ ìˆ˜ê±° í›„ ì§€ì •ëœ ìž¥ì†Œì— ë†“ì•„ì£¼ì‹œê¸¸ ë°”ëžë‹ˆë‹¤.
+</p>
+</div>
+
+<div class="info-wrapper">
+<h4 class="info-header nanum-gothic" style="margin-left:20px;">ROOM INFO</h4><br>
+<p class="info-content">
+ê°ì‹¤ì´ìš©ì— ë”°ë¥¸ ë” ìžì„¸í•œ ì‚¬í•­ì€<br>
+ê³µì§€ì‚¬í•­ì„ ì°¸ê³  ë¶€íƒë“œë¦¬ë©°,<br>
+ê¸°íƒ€ ê¶ê¸ˆí•œ ì‚¬í•­ì€ ì•„ëž˜ ì—°ë½ì²˜ë¡œ<br>
+ë¬¸ì˜ ë°”ëžë‹ˆë‹¤.<br><br>
+<span style="font-weight:600;">ìž…ì‹¤(CHECK-IN TIME) 14:00<br>
+í‡´ì‹¤(CHECK-OUT TIME) 11:00<br><br></span>
+</p>
+</div>
+</div>
+</div>
+
+{{$m_village_footer}}
 </div end>
-<!--º»¹® ³¡-->
+<!--ë³¸ë¬¸ ë-->
 </BODY>
 </HTML>
